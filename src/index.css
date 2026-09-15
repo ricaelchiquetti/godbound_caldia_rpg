@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-dd-red: #58180D;
+  --color-dd-red-light: #9C2B1B;
+  --color-dd-gold: #E69A28;
+  --color-parchment: #fdf1dc;
+  --color-parchment-dark: #e8d5b5;
+  --color-text-dark: #231f20;
+}
 
 :root {
   --dd-red: #58180D;
@@ -8,6 +18,8 @@
   --parchment-dark: #e8d5b5;
   --text-dark: #231f20;
 }
+
+/* O restante do seu CSS continua exatamente igual */
 
 /* Estilização global da barra de rolagem para Firefox */
 * {
