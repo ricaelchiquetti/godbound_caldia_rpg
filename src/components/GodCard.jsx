@@ -8,7 +8,7 @@ export default function GodCard({ deus }) {
       <div className="god-card" onClick={() => setIsModalOpen(true)}>
         <div className="god-card-img-container">
           <img 
-            src={`/assets/img/panteao/${deus.img}`} 
+            src={`${import.meta.env.BASE_URL}/assets/img/panteao/${deus.img}`} 
             alt={deus.nome} 
           />
         </div>
@@ -28,7 +28,7 @@ export default function GodCard({ deus }) {
             <h1>Habilidades de {deus.nome}</h1>
             <div className="god-modal-img-wrapper">
               <img 
-                src={`/assets/img/panteao/habilidades/${deus.img}`} 
+                src={`${import.meta.env.BASE_URL}/assets/img/panteao/habilidades/${deus.img}`} 
                 alt={`Habilidades de ${deus.nome}`} 
               />
             </div>

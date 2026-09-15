@@ -4,7 +4,7 @@ export default function NpcCard({ npc }) {
   return (
     <div className="npc-card">
       <img 
-        src={`/assets/img/personagens/${npc.img}`} 
+        src={`${import.meta.env.BASE_URL}/assets/img/personagens/${npc.img}`} 
         alt={npc.nome} 
       />
       <div>

@@ -5,7 +5,7 @@ export default function CharacterCard({ personagem }) {
     <div className="character-card">
       <div className="character-header">
         <img 
-          src={`/assets/img/personagens/${personagem.img}`} 
+          src={`${import.meta.env.BASE_URL}/assets/img/personagens/${personagem.img}`} 
           alt={personagem.nome} 
           onError={(e) => e.target.src = 'https://via.placeholder.com/90/58180d/e8d5b5?text=PJ'} 
         />
