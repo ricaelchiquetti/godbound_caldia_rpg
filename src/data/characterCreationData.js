@@ -1,0 +1,99 @@
+// src/data/characterCreationData.js
+
+export const characterCreationData = {
+  title: "Forjando um Herói da Era",
+  introParagraphs: [
+    "O primeiro passo rumo à grandeza é criar o seu herói Godbound. Esta seção explicará as regras para moldar seu semideus recém-forjado e apontará alguns assuntos a serem mantidos em mente ao desenvolver seu personagem. Seu herói é um semideus em ascensão e dotado de poderes incríveis, mas mesmo eles precisam trabalhar bem com os outros em seu panteão se quiserem prosperar neste mundo perigoso.",
+    "Ao construir seu herói, você vai querer conversar com o Mestre e com os seus colegas jogadores para garantir que todos estejam na mesma página sobre o jogo. O Mestre pode fornecer detalhes sobre o cenário da campanha que você estará usando, seja o reino de Arcem fornecido neste livro, um mundo caseiro de sua própria invenção, ou um cenário fantástico existente extraído do mundo de jogo mais amplo. Esses detalhes ajudarão você a arredondar o passado do seu herói e escolher os objetivos que se adaptam à sua ideia de diversão.",
+    "Ao mesmo tempo, você vai querer trabalhar com seus colegas jogadores para criar um herói que se encaixe bem com o restante dos personagens dos jogadores. Embora seja possível jogar uma campanha solo de Godbound com apenas um único jogador e um Mestre, os jogos que envolvem um panteão completo precisam ter semideuses que pelo menos tolerem uns aos outros. Os objetivos deles podem não estar em alinhamento perfeito e seus talentos pessoais e nichos podem não estar livres de sobreposição, mas os heróis precisam de uma razão para estarem dispostos a trabalhar uns com os outros.",
+    "O panteão forma grande parte dessa razão. Embora os Godbound só tenham começado a se manifestar nos últimos anos na maioria dos reinos, não é incomum que pequenos grupos deles se encontrem jogados juntos por acaso ou destino. Essas células de semidivindades são atraídas pelos poderes que possuem e pelas oportunidades que se apresentam a um panteão unificado, pois juntos eles podem realizar maravilhas que qualquer Godbound sozinho seria severamente taxado para alcançar. Você e seus colegas jogadores fazem parte do mesmo panteão, e vocês devem ser capazes de trabalhar juntos com não mais do que um grau mutuamente agradável de tensão interna no grupo.",
+    "Uma coisa a se tomar cuidado ao fazer seu herói é o risco da apatia divina. É crucial que seu herói tenha objetivos e ambições no mundo, sejam esses objetivos uma simples fome por luxos mortais fabulosos, uma ambição maior de redimir sua pátria conquistada, ou o sonho de acabar com uma guerra secular que destruiu sua nação. Seu herói é um semideus, e quase qualquer feito é algo que ele é capaz de alcançar com tempo suficiente, esforço e auxílio de aliados. Tudo bem criar um herói que seja simplesmente incrível em tudo, mas essa grandiosidade precisa ter uma direção.",
+    "Isso é crucial porque a maioria das campanhas de Godbound são campanhas sandbox. O Mestre construiu um cenário com uma enorme quantidade de conflitos, vilões, heróis, espectadores simpáticos, aflições de longa data e recompensas fabulosas a serem conquistadas. Eles prepararam uma sessão inicial para lançar o panteão em uma situação de crise para ajudar todos vocês a se aquecerem para o jogo e para o cenário. Além disso, no entanto, o progresso do jogo é de sua responsabilidade. Seus objetivos e suas escolhas serão as coisas que impulsionarão o jogo e, embora o mundo sem dúvida reaja às suas decisões e tenha sua própria parcela de atores ambiciosos, o coração do jogo é sobre o novo mundo que seu herói está construindo.",
+    "Cada parte de um reino está sujeita à influência e às decisões de um herói Godbound. Pode não ser fácil mudar algo. Pode exigir esforços heróicos e sacrifícios terríveis para acumular o poder e os recursos necessários para decretar alguma mudança tremenda. Mas ainda assim, seu herói e seus companheiros são os juízes de última instância. Não há poder supremo acima de você para decretar como o mundo deve ser feito. Não há panteão de divindades maiores para puni-lo por se recusar a aceitar o mundo como ele é.",
+    "Isso pode criar seu próprio tipo de conflito. Seus heróis terão o suficiente para mantê-los ocupados combatendo Godbound rivais, derrocando deuses parasitas, lutando com monarcas humanos e tentando manter sua integridade diante de tantas escolhas e tentações. Eles realmente querem adicionar a tutela do mundo aos seus deveres? As ideias deles para o mundo são realmente uma melhoria sobre o que o acaso e a escolha mortal produziram?",
+    "Haverá desdiscordâncias sobre isso, sem dúvida, mesmo dentro do seu próprio panteão. Godbound diferentes terão ideias diferentes sobre que tipo de mundo aguarda sua chegada, e essas disputas terão que ser resolvidas de uma forma ou de outra. No entanto, mesmo depois que o trabalho for feito, mesmo depois que os anjos maleáveis forem banidos, as estações forem endireitadas e os famintos alimentados com campos de abundância divina, estarão todas as coisas verdadeiramente como deveriam estar? O mundo foi estilhaçado uma vez pelos sonhos em guerra daqueles que seriam deuses. Será ele quebrado novamente?"
+  ],
+  stepsIntro: "Você pode seguir os passos aqui para criar um semideus recém-forjado. Jogadores menos experientes podem ler mais sobre cada passo nas páginas seguintes, enquanto aqueles familiarizados com o processo podem apenas descer pela lista.",
+  steps: [
+    {
+      number: 1,
+      title: "Atributos",
+      desc: "Role ou atribua as pontuações de atributos do seu herói para determinar suas forças e fraquezas inatas. Se quiser rolá-los, role 4d6 seis vezes, descartando o menor dado a cada vez e somando os outros três. Quanto maior a rolagem, mais forte o herói nessa qualidade. Atribua essas seis pontuações aos atributos nesta seção em qualquer ordem desejada. Se preferir apenas atribuir uma matriz, coloque estes números em qualquer ordem: 16, 14, 13, 13, 10 e 8."
+    },
+    {
+      number: 2,
+      title: "Modificadores de Atributo",
+      desc: "Registre os modificadores de atributo do seu herói. Normalmente, você não aplica sua pontuação inteira a uma rolagem de dado relevante. Em vez disso, você aplica apenas um bônus ou penalidade. Se a pontuação do seu atributo for 3, seu modificador para o atributo é -3. Para pontuações de 4–5, é -2; para 6–8, é -1; para 9–12, é +0; para 13–15, é +1; para 16–17, é +2; e para uma pontuação poderosa de 18, é +3."
+    },
+    {
+      number: 3,
+      title: "Testes de Atributo",
+      desc: "Anote os testes de atributo do seu herói. Para cada atributo, subtraia-o de 21 para encontrar o escore de teste desse atributo. Sempre que seu personagem tentar realizar algo que exigiria esforço até mesmo da capacidade de um herói lendário, você precisa rolar 1d20 e obter um valor igual ou superior a esse número de teste. Tarefas particularmente difíceis podem aplicar uma penalidade, enquanto um Fato relevante pode conceder um bônus ou até mesmo tornar o esforço um sucesso automático."
+    },
+    {
+      number: 4,
+      title: "Fatos (Facts)",
+      desc: "Decida três Fatos sobre seu herói e registre-os aqui. Um Fato é uma verdade importante sobre seu herói, uma que molda seu passado e suas habilidades. Um Fato deve ser sobre de onde ele veio, um Fato deve ser sobre como ele adquiriu as habilidades que usou para sobreviver antes de despertar para seu poder divino, e um Fato deve ser sobre algum tipo de relacionamento importante ou organização com a qual ele está envolvido. Cada Fato não precisa ter mais do que uma ou duas frases de comprimento. Fatos ajudam você quando você faz testes de atributo relevantes. Sempre que você estiver fazendo um teste de atributo para fazer algo em que seus Fatos fariam você ser bom, você ganha um bônus de +4 na rolagem do teste de atributo. Em alguns casos, você pode nem precisar fazer um teste onde um herói com menos experiência pertinente precisaria rolar. Fatos não modificam rolagens de acerto ou dano."
+    },
+    {
+      number: 5,
+      title: "Escolha de Palavras (Words)",
+      desc: "Escolha três Palavras dentre aquelas descritas no capítulo de Poderes Divinos. Essas Palavras descrevem os poderes divinos e o vigor do seu herói. Elas devem expressar algo significativo sobre a personalidade do personagem e sua abordagem favorita para lidar com problemas. No entanto, em última análise, as Palavras de um Godbound são emanações de sua natureza. Seu herói controla suas Palavras e decide como manifesta seus poderes."
+    },
+    {
+      number: 6,
+      title: "Habilidades Especiais",
+      desc: "Registre as habilidades especiais que suas Palavras vinculadas concedem a você. Cada Palavra dá um poder especial ao Godbound que a vincula. Algumas destas são habilidades mágicas, enquanto outras permitem que você impulsione certas pontuações de atributos. Não se esqueça de alterar seus modificadores de atributos e testes se precisar, ou reorganizar estatísticas se necessário."
+    },
+    {
+      number: 7,
+      title: "Dádivas Divinas (Divine Gifts)",
+      desc: "Gaste seis pontos escolhendo dádivas divinas. Você pode escolher dádivas de suas Palavras vinculadas gastando um ponto para dominar uma dádiva menor e dois pontos para dominar uma maior. Você pode dominar dádivas menores de fora de suas Palavras vinculadas gastando dois pontos cada, se puder explicar como suas próprias Palavras existentes poderiam criar esse efeito. Você encontrará as dádivas listadas no capítulo de Poderes Divinos, mas não se esqueça de dar uma olhada na página 29 para aquelas dádivas que cada Palavra oferece. Opcionalmente, você pode gastar três pontos para vincular mais uma Palavra. Você aprenderá a vincular mais Palavras e dádivas com o tempo e experiência."
+    },
+    {
+      number: 8,
+      title: "Testes de Resistência (Saving Throws)",
+      desc: "Registre seus testes de resistência aqui. Para o seu teste de Hardiness, medindo sua resistência à exaustão, veneno e transformação corporal, subtraia o maior entre os seus modificadores de Força ou Constituição de 15. Para o seu teste de Evasion para desviar de explosões, raios da morte e outros perigos que chegam, subtraia o maior entre os seus modificadores de Destreza ou Inteligência de 15. Para o seu teste de Spirit para resistir ao controle mental, maldições e transmissões mágicas, subtraia o maior entre os seus modificadores de Sabedoria ou Carisma de 15. Note que se ambos os seus modificadores forem penalidades, seus testes de resistência podem na verdade ser maiores do que 15. Quando o Mestre disser para você fazer um teste de resistência, role 1d20 e tente rolar igual ou acima da sua pontuação de teste de resistência nessa categoria. Como um Godbound, você pode sempre suceder automaticamente em um teste de resistência que de outra forma falharia se você tiver energia divina restante para salvar a si mesmo."
+    },
+    {
+      number: 9,
+      title: "Armas e Dado de Fraca (Fray Die)",
+      desc: "Escolha suas armas da página 13, assumindo que queira carregar alguma. As armas têm um dado de dano e um atributo relevante, geralmente Força para armas brancas e Destreza para armas de distância. Se uma arma for listada com dois atributos, você pode escolher qual for maior. Anote as armas aqui. Para a entrada '+ hit', anote o bônus de atributo relevante mais um. Para o dado de dano, escreva o dano da arma mais o seu modificador de atributo. Assim, se você tivesse um modificador de Força de +2 e decidisse que seu herói carrega um martelo pesado de duas mãos, você anotaria '+3' para o bônus de acerto e '1d10+2' para o dano. Anote também seu Fray die, que é 1d8 para a maioria dos heróis. Seu Fray die é rolado a cada rodada para causar dano a inimigos menores, e você geralmente pode contar com eliminar um ou dois inimigos humanos comuns a cada rodada mesmo sem uma ação de ataque explícita. Inimigos principais, no entanto, são imunes ao dano do seu Fray die, então você precisará lidar com eles de forma mais direta."
+    },
+    {
+      number: 10,
+      title: "Armadura e Classe de Armadura (AC)",
+      desc: "Escolha um tipo de armadura da página 13 se o seu herói for do tipo que a usa. A armadura reduz sua classe de armadura, tornando mais difícil ferir seu herói. Humanos desarmados e sem agilidade especial têm uma AC de 9, enquanto armaduras melhores reduzem a pontuação, assim como certas dádivas divinas que concedem uma classe de armadura base melhor. No entanto, a armadura atrapalha quem a veste, e quanto mais pesada a armadura, pior o empecilho. Se você usar armadura média, escolha uma categoria de teste de resistência: Hardiness, Evasion ou Spirit. Você sofre uma penalidade de -4 nessa categoria de rolagem de teste de resistência, pois a armadura o esgota, o desacelera ou atrai poderes espirituais negativos. Se você usar armadura pesada, escolha duas categorias de teste de resistência para penalizar. Armadura leve e escudos não aplicam penalidade. Uma vez que você tenha escolhido sua armadura, se houver alguma, subtraia seu modificador de Destreza da sua classe de armadura. No entanto, mesmo uma penalidade de Destreza não pode torná-la pior do que a AC 9."
+    },
+    {
+      number: 11,
+      title: "Pontos de Vida (Hit Points)",
+      desc: "Anote os pontos de vida do seu herói aqui. Os pontos de vida são uma medida da proximidade da derrota de um Godbound. Se você ficar sem pontos de vida, seu herói estará gravemente ferido ou incapacitado por seus inimigos, e não poderá mais agir. Se você for ferido novamente enquanto estiver com zero pontos de vida, seu herói perecerá. Um Godbound novo tem oito pontos de vida, modificados pelo seu modificador de Constituição. Você pode recuperar pontos de vida perdidos descansando. Uma noite inteira de sono restaurará quaisquer pontos que você tenha perdido."
+    },
+    {
+      number: 12,
+      title: "Esforço (Effort)",
+      desc: "Anote a pontuação de Esforço do seu herói, que é 2, a menos que você tenha tomado dádivas que a aumentem. O Esforço é a medida da energia divina disponível do seu Godbound. Você o comete para usar certas dádivas ou ter sucesso em testes de resistência falhos, e você o recupera quando as dádivas não são mais necessárias ou você tem algum tempo para descansar. O Esforço é o combustível dos poderes divinos de um Godbound. Se todo o seu Esforço tiver sido cometido, seu herói está no seu limite."
+    },
+    {
+      number: 13,
+      title: "Riqueza (Wealth)",
+      desc: "Você começa o jogo com 0 de Riqueza. Seu Godbound geralmente tem o dinheiro ou as habilidades para conseguir quaisquer bens e serviços menores que desejar, mas se você quiser comprar imóveis, possuir navios, dar festas enormes ou gastar extravagantemente de outra forma, você precisará encontrar montes apropriadamente brilhantes de Riqueza."
+    },
+    {
+      number: 14,
+      title: "Experiência e Domínio (Experience & Dominion)",
+      desc: "Você também começa o jogo com 0 pontos de Experiência e Domínio. Seu total de Experiência aumenta conforme seu Godbound supera desafios dignos e realiza mudanças significativas no mundo. Assim que você obtiver experiência suficiente, seu herói ganhará novos poderes e resistência. O Domínio mede a autoridade divina disponível do Godbound sobre a criação e seu poder para criar mudanças e maravilhas em grande escala no mundo. Você ganhará isso superando desafios e o gastará promulgando sua vontade."
+    },
+    {
+      number: 15,
+      title: "Influência (Influence)",
+      desc: "Seu Godbound começa com 2 pontos de Influência, a menos que você tenha tomado dádivas que aumentem esse total. A Influência mede a capacidade do seu herói de sustentar projetos e mudanças com sua própria atenção pessoal. Você pode usar a Influência no lugar do Domínio para fazer uma mudança, mas assim que você retirar seus pontos de Influência para fazer outra coisa, a situação retorna à sua linha de base normal."
+    },
+    {
+      number: 16,
+      title: "Nome, Aparência e Objetivo",
+      desc: "Escreva o nome do seu herói aqui e decida como ele se parece e age. Tire um momento para pensar em como ele se parece quando está usando seus poderes divinos, e como ele pode agir em relação aos seus companheiros de panteão, às massas de pessoas comuns ou aos seus eventuais fiéis. Evite fazer heróis que sejam lobos solitários ou criadores de problemas para seus próprios companheiros. Embora um pouco de tensão intra-grupo possa ser um tempero interessante, as melhores campanhas geralmente envolvem causar uma quantidade enorme de problemas para pessoas que não são seus colegas heróis. Por fim, anote o objetivo atual do seu Godbound bem aqui. Eles podem querer usar suas novas habilidades para se vingar de um agressor anteriormente intocável, fazer algum grande trabalho para beneficiar seu povo, ou simplesmente querer acumular quantidades impraticavelmente grandes de ouro e companheiros de virtude negociável. Você pode mudar seu objetivo sempre que fizer sentido para você, mas você deve sempre ter pelo menos um deles para ajudar a direcionar os feitos lendários do seu semideus."
+    }
+  ]
+};
