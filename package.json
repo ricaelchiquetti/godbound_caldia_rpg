@@ -1,12 +1,15 @@
 {
   "name": "caldia-compendio-react",
   "private": true,
+  "homepage": "https://ricaelchiquetti.github.io/godbound_caldia_rpg",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.263.1",
