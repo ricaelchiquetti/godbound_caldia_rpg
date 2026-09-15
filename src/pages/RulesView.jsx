@@ -5,48 +5,29 @@ import GameRulesView from '../components/GameRulesView';
 import DivinePowerView from '../components/DivinePowerView';
 import WordsCreationView from '../components/WordsCreationView';
 
-// Futuramente você pode importar outros módulos aqui:
-// import CombatRulesView from './CombatRulesView';
+const RULES_TABS = [
+  { id: 'creation', label: 'Criação de Personagem', Component: CharacterCreationGuideView },
+  { id: 'rules', label: 'As Regras do Jogo', Component: GameRulesView },
+  { id: 'divine-power', label: 'Poderes Divinos', Component: DivinePowerView },
+  { id: 'words-creation', label: 'As Palavras da Criação', Component: WordsCreationView },
+];
 
 export default function RulesView() {
-  const [activeMainTab, setActiveMainTab] = useState('creation');
+  const [activeTabId, setActiveTabId] = useState('creation');
 
-  const mainTabs = [
-    { id: 'creation', label: 'Criação de Personagem', component: <CharacterCreationGuideView /> },
-    { id: 'rules', label: 'As Regras do Jogo', component: <GameRulesView /> },
-    { id: 'divine-power', label: 'Poderes Divinos', component: <DivinePowerView /> },
-    { id: 'words-creation', label: 'As Palavras da Criação', component: <WordsCreationView /> },
-  ];
+  const currentTab = RULES_TABS.find((tab) => tab.id === activeTabId) || RULES_TABS[0];
+  const ActiveComponent = currentTab.Component;
 
   return (
     <PageLayout title="Godbound - Regras do Jogo">
-      
-      {/* Abas Principais da Seção de Regras */}
-      <div style={{ 
-        display: 'flex', 
-        gap: '10px', 
-        marginBottom: '25px',
-        borderBottom: '2px solid var(--dd-gold)',
-        paddingBottom: '12px'
-      }}>
-        {mainTabs.map((tab) => {
-          const isActive = activeMainTab === tab.id;
+      <div className="flex gap-2.5 mb-6 pb-3 border-b-2 border-[var(--dd-gold)] overflow-x-auto">
+        {RULES_TABS.map((tab) => {
+          const isActive = activeTabId === tab.id;
           return (
             <button
               key={tab.id}
-              onClick={() => setActiveMainTab(tab.id)}
-              style={{
-                padding: '10px 20px',
-                background: isActive ? '#554215' : 'rgba(255, 255, 255, 0.7)',
-                color: isActive ? '#fff' : '#333',
-                border: '1px solid var(--dd-gold)',
-                borderRadius: '4px',
-                cursor: 'pointer',
-                fontWeight: 'bold',
-                fontSize: '1rem',
-                boxShadow: isActive ? '0 2px 5px rgba(0,0,0,0.2)' : 'none',
-                transition: 'all 0.2s ease'
-              }}
+              onClick={() => setActiveTabId(tab.id)}
+              className={`px-5 py-2.5 rounded border border-[var(--dd-gold)] cursor-pointer font-bold text-base transition-all duration-200 whitespace-nowrap ${isActive ? 'bg-[#554215] text-white shadow-md' : 'bg-white/70 text-gray-800 shadow-none hover:bg-white/90'}`}
             >
               {tab.label}
             </button>
@@ -54,11 +35,9 @@ export default function RulesView() {
         })}
       </div>
 
-      {/* Renderiza a aba principal ativa */}
       <div>
-        {mainTabs.find(tab => tab.id === activeMainTab)?.component}
+        <ActiveComponent />
       </div>
-
     </PageLayout>
   );
 }

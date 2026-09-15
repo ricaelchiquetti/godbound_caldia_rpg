@@ -5,50 +5,43 @@ import RulesSavingThrowsView from './RulesSavingThrowsView';
 import RulesAdvancementView from './RulesAdvancementView';
 import RulesCombatView from './RulesCombatView';
 
-export default function GameRulesView() {
-  const tableOfContents = [
-    { id: 'visao-geral', label: '1. Visão Geral' },
-    { id: 'atributos', label: '2. Testes de Atributos' },
-    { id: 'savamentos', label: '3. Testes de Resistência' },
-    { id: 'evolucao', label: '4. Evolução' },
-    { id: 'combate', label: '5. Combate' },
-  ];
+const GAME_SECTIONS = [
+  { id: 'visao-geral', label: '1. Visão Geral', Component: RulesIntroView },
+  { id: 'atributos', label: '2. Testes de Atributos', Component: RulesAttributeChecksView },
+  { id: 'salvamentos', label: '3. Testes de Resistência', Component: RulesSavingThrowsView },
+  { id: 'evolucao', label: '4. Evolução', Component: RulesAdvancementView },
+  { id: 'combate', label: '5. Combate', Component: RulesCombatView },
+];
 
+export default function GameRulesView() {
   const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
     <div className="docs-layout">
-      
-      {/* SIDEBAR FIXO (Índice Lateral) */}
       <aside className="docs-sidebar">
-        <h4>Navegação do Guia</h4>
-        <nav style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-          {tableOfContents.map((item) => (
+        <h1>Navegação do Guia</h1>
+        <nav className="flex flex-col gap-1">
+          {GAME_SECTIONS.map(({ id, label }) => (
             <button
-              key={item.id}
-              onClick={() => scrollToSection(item.id)}
-              className="docs-nav-link"
+              key={id}
+              onClick={() => scrollToSection(id)}
+              className="docs-nav-link text-left"
             >
-              {item.label}
+              {label}
             </button>
           ))}
         </nav>
       </aside>
 
-      {/* CONTEÚDO PRINCIPAL DO GUIA */}
       <main className="docs-content">
-        <div id="visao-geral"><RulesIntroView /></div>
-        <div id="atributos"><RulesAttributeChecksView /></div>
-        <div id="savamentos"><RulesSavingThrowsView /></div>
-        <div id="evolucao"><RulesAdvancementView /></div>
-        <div id="combate"><RulesCombatView /></div>
+        {GAME_SECTIONS.map(({ id, Component }) => (
+          <section key={id} id={id} className="scroll-mt-6">
+            <Component />
+          </section>
+        ))}
       </main>
-
     </div>
   );
 }
