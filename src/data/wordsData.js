@@ -1,5 +1,38 @@
 export const wordsData = [
   {
+    id: "Universal",
+    name: 'Universais (Universal)',
+    shortDesc: 'Alguns efeitos são comuns o suficiente para que qualquer Palavra possa manifestá-los',
+    description: 'Alguns efeitos são comuns o suficiente para que qualquer Palavra possa manifestá-los. Em vez de repeti-los sob cada tópico, eles são apresentados aqui, todos como dons menores.',
+    gifts: [
+      {
+        name: "Ira Divina (Divine Wrath)",
+        type: "Ação",
+        content: "Comprometa Esforço até o fim da cena. Você golpeia um inimigo escolhido ao alcance da sua visão com as energias da Palavra, infligindo 1d8 de dano por nível de personagem. Você é sempre imune à ira de suas próprias Palavras vinculadas, assim como outras entidades que empunham poderes semelhantes. Por ser um poder de Golpe (Smite), a Ira Divina não pode ser usada por duas rodadas consecutivas."
+      },
+      {
+        name: "Corona de Fúria (Corona of Fury)",
+        type: "Ação",
+        content: "Comprometa Esforço até o fim da cena. Você lança uma torrente de energia da sua Palavra contra um grupo de inimigos, afetando todos em um raio de 9 metros (30 pés) a partir de um ponto alvo visível. Cada vítima sofre 1d8 de dano para cada dois níveis que você possui, arredondado para cima. A fúria pode poupar aliados na área de forma seletiva, mas, nesse caso, os inimigos têm direito a um teste de resistência apropriado para mitigar o efeito. Você é sempre imune às fúrias de suas próprias Palavras vinculadas, assim como outras entidades com poderes semelhantes. Por ser um Golpe (Smite), a Corona de Fúria não pode ser usada por duas rodadas consecutivas."
+      },
+      {
+        name: "Esforço da Palavra (Effort of the Word)",
+        type: "Constante",
+        content: "Seu Esforço máximo aumenta em um ponto. Esta dádiva pode ser adquirida uma vez para cada Palavra a qual você se vinculou, mas cada aquisição após a primeira custa dois pontos de dádiva em vez de um."
+      },
+      {
+        name: "Influência da Palavra (Influence of the Word)",
+        type: "Constante",
+        content: "Sua Influência máxima aumenta em dois pontos. Esta dádiva pode ser adquirida uma vez para cada Palavra à qual você se vinculou."
+      },
+      {
+        name: "Excelência da Palavra (Excellence of the Word)",
+        type: "Constante",
+        content: "Escolha um valor de atributo e aumente-o para 18. Esta excelência costuma refletir a natureza da Palavra que a concede; Fogo que concede Destreza pode fazer com que faíscas sejam deixadas para trás em movimentos rápidos, enquanto Terra que concede Sabedoria pode dar um tom ponderado e firme aos seus pensamentos. Esta dádiva só pode ser adquirida uma vez, independentemente de quantas Palavras seu herói tenha vinculado."
+      }
+    ]
+  },
+  {
     id: "alacrity",
     name: "Velocidade (Alacrity)",
     shortDesc: "Agilidade e rapidez em movimento.",

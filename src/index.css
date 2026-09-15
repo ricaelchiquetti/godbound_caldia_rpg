@@ -111,9 +111,8 @@ h1, h2, h3, h4 {
 }
 
 .content-container {
-  max-width: 70%;
-  margin: 40px auto;
-  padding: 0 20px;
+  max-width: 80%;
+  margin: 2% auto;
 }
 
 .city-nav {
@@ -388,4 +387,36 @@ h1, h2, h3, h4 {
     top: 0 !important;
     max-height: none !important;
   }
+}
+
+
+/* Estilo para tabelas vindas do Markdown */
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.markdown-content th,
+.markdown-content td {
+  border: 1px solid var(--dd-gold, #c5a059); /* Bordas com a cor temática */
+  padding: 10px 14px;
+  text-align: left;
+}
+
+.markdown-content th {
+  background-color: rgba(197, 160, 89, 0.2); /* Fundo do cabeçalho */
+  color: #554215;
+  font-weight: bold;
+}
+
+/* Efeito zebrado suave nas linhas */
+.markdown-content tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Efeito ao passar o mouse */
+.markdown-content tr:hover {
+  background-color: rgba(197, 160, 89, 0.08);
 }

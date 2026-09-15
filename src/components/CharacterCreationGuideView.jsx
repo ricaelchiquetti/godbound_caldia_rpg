@@ -1,57 +1,48 @@
 import React from 'react';
-import CharacterCreationView from '../components/CharacterCreationView';
-import AttributesRulesView from '../components/AttributesRulesView';
-import FactsRulesView from '../components/FactsRulesView';
-import WordsAndGiftsRulesView from '../components/WordsAndGiftsRulesView';
-import WealthAndEquipmentRulesView from '../components/WealthAndEquipmentRulesView';
-import FinalTouchesRulesView from '../components/FinalTouchesRulesView';
+import GuideSidebar from '../components/GuideSidebar';
+import MarkdownDocView from '../components/MarkdownDocView';
+
+// Mapeamento explícito com o nome do arquivo, ID de rolagem e Título correto (com acentos)
+const SECTION_CONFIG = [
+  { file: 'intro.md', id: 'visao-geral', label: 'Visão Geral' },
+  { file: 'attributes.md', id: 'atributos', label: 'Atributos, Mods e Salvamentos' },
+  { file: 'facts.md', id: 'fatos', label: 'Determinando Fatos' },
+  { file: 'words-gifts.md', id: 'palavras', label: 'Escolhendo Palavras e Dádivas' },
+  { file: 'wealth-equipment.md', id: 'riqueza', label: 'Riqueza e Equipamentos' },
+  { file: 'final-touches.md', id: 'toques-finais', label: 'Toques Finais' },
+];
+
+// Importa todos os arquivos .md da pasta
+const modules = import.meta.glob('../content/rules/character-creation/*.md', {
+  query: '?raw',
+  import: 'default',
+  eager: true
+});
+
+// Relaciona a configuração com o conteúdo importado
+const sections = SECTION_CONFIG.map(({ file, id, label }) => {
+  const filePath = `../content/rules/character-creation/${file}`;
+  return {
+    id,
+    label,
+    content: modules[filePath] || ''
+  };
+});
 
 export default function CharacterCreationGuideView() {
-  const tableOfContents = [
-    { id: 'visao-geral', label: '1. Visão Geral' },
-    { id: 'atributos', label: '2. Atributos, Mods e Salvamentos' },
-    { id: 'fatos', label: '3. Determinando Fatos' },
-    { id: 'palavras', label: '4. Escolhendo Palavras e Dádivas' },
-    { id: 'riqueza', label: '5. Riqueza e Equipamentos' },
-    { id: 'toques-finais', label: '6. Toques Finais' },
-  ];
-
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
-    <div className="docs-layout">
-      
-      {/* SIDEBAR FIXO (Índice Lateral) */}
-      <aside className="docs-sidebar">
-        <h4>Navegação do Guia</h4>
-        <nav style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-          {tableOfContents.map((item) => (
-            <button
-              key={item.id}
-              onClick={() => scrollToSection(item.id)}
-              className="docs-nav-link"
-            >
-              {item.label}
-            </button>
-          ))}
-        </nav>
-      </aside>
-
-      {/* CONTEÚDO PRINCIPAL DO GUIA */}
-      <main className="docs-content">
-        <div id="visao-geral"><CharacterCreationView /></div>
-        <div id="atributos"><AttributesRulesView /></div>
-        <div id="fatos"><FactsRulesView /></div>
-        <div id="palavras"><WordsAndGiftsRulesView /></div>
-        <div id="riqueza"><WealthAndEquipmentRulesView /></div>
-        <div id="toques-finais"><FinalTouchesRulesView /></div>
+    <div className="flex gap-8 max-w-7xl mx-auto p-6">
+      <GuideSidebar sections={sections} />
+      <main className="flex-1 space-y-10">
+        {sections.map(({ id, content }) => (
+          <section
+            key={id}
+            id={id}
+          >
+            <MarkdownDocView content={content} />
+          </section>
+        ))}
       </main>
-
     </div>
   );
 }

@@ -1,44 +1,43 @@
-import React from 'react';
-import RulesIntroView from './RulesIntroView';
-import RulesAttributeChecksView from './RulesAttributeChecksView';
-import RulesSavingThrowsView from './RulesSavingThrowsView';
-import RulesAdvancementView from './RulesAdvancementView';
-import RulesCombatView from './RulesCombatView';
+import GuideSidebar from '../components/GuideSidebar';
+import MarkdownDocView from './MarkdownDocView';
 
-const GAME_SECTIONS = [
-  { id: 'visao-geral', label: '1. Visão Geral', Component: RulesIntroView },
-  { id: 'atributos', label: '2. Testes de Atributos', Component: RulesAttributeChecksView },
-  { id: 'salvamentos', label: '3. Testes de Resistência', Component: RulesSavingThrowsView },
-  { id: 'evolucao', label: '4. Evolução', Component: RulesAdvancementView },
-  { id: 'combate', label: '5. Combate', Component: RulesCombatView },
+// Mapeamento dos arquivos MD com seus IDs e títulos acentuados
+const SECTION_CONFIG = [
+  { file: 'intro.md', id: 'visao-geral', label: 'Visão Geral' },
+  { file: 'attribute-checks.md', id: 'atributos', label: 'Testes de Atributos' },
+  { file: 'saving-throws.md', id: 'salvamentos', label: 'Testes de Resistência' },
+  { file: 'advancement.md', id: 'evolucao', label: 'Evolução' },
+  { file: 'combat.md', id: 'combate', label: 'Combate' },
 ];
 
-export default function GameRulesView() {
-  const scrollToSection = (id) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+// Importa todos os arquivos .md da pasta game-rules
+const modules = import.meta.glob('../content/rules/game-rules/*.md', {
+  query: '?raw',
+  import: 'default',
+  eager: true
+});
+
+// Associa o conteúdo importado a cada seção da lista
+const sections = SECTION_CONFIG.map(({ file, id, label }) => {
+  const filePath = `../content/rules/game-rules/${file}`;
+  return {
+    id,
+    label,
+    content: modules[filePath] || ''
   };
+});
 
+export default function GameRulesView() {
   return (
-    <div className="docs-layout">
-      <aside className="docs-sidebar">
-        <h1>Navegação do Guia</h1>
-        <nav className="flex flex-col gap-1">
-          {GAME_SECTIONS.map(({ id, label }) => (
-            <button
-              key={id}
-              onClick={() => scrollToSection(id)}
-              className="docs-nav-link text-left"
-            >
-              {label}
-            </button>
-          ))}
-        </nav>
-      </aside>
-
-      <main className="docs-content">
-        {GAME_SECTIONS.map(({ id, Component }) => (
-          <section key={id} id={id} className="scroll-mt-6">
-            <Component />
+    <div className="flex gap-8 max-w-7xl mx-auto p-6">
+      <GuideSidebar sections={sections} />
+      <main className="flex-1 space-y-10">
+        {sections.map(({ id, content }) => (
+          <section
+            key={id}
+            id={id}
+          >
+            <MarkdownDocView content={content} />
           </section>
         ))}
       </main>
