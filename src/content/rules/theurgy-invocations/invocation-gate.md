@@ -1,0 +1,59 @@
+# Invocações do Portão
+
+## Portões Trancados de Proibição (*Barred Gates of Forbiddance*)
+Por meio de uma conexão arcana, o teurgo pode proibir um sujeito de entrar em um determinado lugar. O local banido pode ser tão pequeno quanto um quarto específico ou tão grande quanto uma nação, mas deve ser uma entidade única e reconhecível. Se o sujeito estiver dentro da área proibida quando a invocação for conjurada, ele deve fugir imediatamente para a fronteira viável mais próxima pela rota mais rápida possível. Se for trazido para dentro dela contra a sua vontade, ele não poderá fazer nada além de fugir na primeira oportunidade. O teurgo não precisa estar presente dentro da área a ser protegida ao conjurar a magia, mas deve conhecer sua localização e dimensões gerais.
+
+Inimigos menores são incapazes de resistir a esta magia, enquanto inimigos dignos podem fazer um teste de resistência de Espírito para resistir à proibição. A proibição dura até ser dissipada ou até que o conjurador suspenda o banimento.
+
+## Farol da Pureza Celestial (*Beacon of Celestial Purity*)
+O teurgo brilha com uma radiação de clarificação brilhante que ilumina suavemente tudo dentro de trinta metros (cem pés). A luz purifica e limpa tudo o que toca, tornando os objetos limpos e neutralizando venenos e fontes de doença, embora não cure pessoas afligidas nem bana magia. Quaisquer mentiras ou desvios intencionais ditos dentro da luz tornam-se visíveis como uma pluma de fumaça imunda subindo da boca do falante. As mentiras dos outros causam *feedback* doloroso ao teurgo e infligem um dado de dano de 1d6 cada vez que uma mentira é dita. Esse dano não pode ser evitado ou negado. A luz dura enquanto o conjurador desejar e permanecer consciente. Aqueles com a Palavra da Decepção (*Deception*) podem contar mentiras sem serem descobertos por esta magia.
+
+## O Cântico do Deus Brilhante (*The Bright God's Canticle*)
+Esta invocação exige que o conjurador cante, proibindo qualquer outra fala ou conjuração de magia enquanto for mantida. Enquanto o conjurador permanecer cantando, aqueles ao seu redor são incapazes de reconhecer sua presença, ou a presença de aliados que permaneçam próximos ao teurgo. Os observadores estão cientes do feiticeiro, mas não podem fazer nada para agir sobre essa consciência, a menos que a invocação seja encerrada. O efeito é quebrado se o mago parar de cantar, ou se ele ou seus aliados atacarem alguém ou usarem efeitos hostis.
+
+Inimigos menores são afetados automaticamente pelo cântico. Para os outros, o inimigo digno com o melhor teste de resistência no grupo pode rolar um teste de Espírito para resistir; se for bem-sucedido, nenhum inimigo digno será afetado, enquanto se falhar, todos estarão sujeitos ao cântico.
+
+## A Excisão dos Dias (*The Excision of Days*)
+Uma feitiçaria ardentemente desejada pelos mais implacáveis entre os teurgos, o rito da Excisão dos Dias rouba a vida de uma pessoa para prolongar a vida do conjurador. O sujeito deve ser humano, contido e indefeso, e o ritual é complexo demais para ser conjurado instantaneamente ou em poucas rodadas. Os doentes e idosos adicionam apenas um dia à expectativa de vida do feiticeiro. Os jovens e saudáveis adicionam um mês, enquanto bebês e crianças são os mais ricos em força vital e adicionam dois meses cada um à longevidade do mago. As vítimas invariavelmente perecem durante o ritual, e suas almas são arrastadas para o Inferno pelas forças arcanas envolvidas no rito. Mais de uma vítima pode ser sacrificada de uma só vez se todas estiverem devidamente preparadas.
+
+A vitalidade renovada concedida por este ritual é permanente, mas o uso prolongado invariavelmente tem um preço. Após o primeiro século, o teurgo geralmente começa a sofrer mutações relacionadas à força vital que roubou, tornando-se progressivamente mais inumano e monstruoso à medida que menos e menos de sua força vital original permanece. Muitos teurgos acolhem essa mudança, pois seus corpos novos são frequentemente dotados de habilidades misteriosas.
+
+## Beijo da Garça (*Kiss of the Crane*)
+Uma pequena lâmina em formato de garça é primeiro ungida com o sangue de seu alvo, ou combinada de outra forma com uma conexão arcana à sua vítima pretendida. Se o sujeito estiver visível, a lâmina pode simplesmente ser apontada em sua direção, sem necessidade de conexão. Quando a invocação é conjurada, a lâmina salta no ar e persegue o alvo, viajando a uma taxa de cento e sessenta quilômetros por hora (cem milhas por hora) para buscar infalivelmente sua vítima. A lâmina mágica então atinge causando 1d6 de dano por dado de vida do teurgo conjurador, até um máximo de 10d6. A garça é infalível, mas uma segunda garça não pode afetar a vítima até que todo o dano da primeira tenha cicatrizado.
+
+Inimigos menores não podem resistir a esta magia, mas inimigos dignos podem fazer um teste de resistência de Evasão para sofrer apenas metade do dano.
+
+## Abrir a Estrada da Noite (*Open the Night Road*)
+Muitas das Estradas da Noite entre os reinos estão escondidas profundamente na terra ou ocultas em locais remotos, longe das cidades dos homens. Dentre elas, algumas foram lacradas por feitiçaria antiga ou fechadas pelo lento congelamento da lei natural. Esta invocação pode ser usada para abrir uma entrada lacrada da Estrada da Noite ou dar ao conjurador uma noção da direção geral e da distância até a mais próxima. Se o conjurador for cuidadoso, ele poderá abrir a Estrada apenas brevemente, deixando-a acessível por alguns minutos antes que o selo existente volte a cicatrizar sobre a entrada. Conjuradores mais imprudentes podem arrancar o selo completamente, deixando a estrada aberta para todos passarem até que uma nova feitiçaria ou lei natural a feche mais uma vez.
+
+## Poro do Inferno (*Pore of Hell*)
+Um sigilo em chamas é inscrito em uma superfície sólida, com suas chamas diminuindo para o brilho de brasas fracas após alguns instantes. Enquanto a invocação permanecer ativa, o conjurador pode, a qualquer momento, acionar o poro como uma ação Instantânea, fazendo com que ele vomite chamas e farpas de obsidiana em tudo o que estiver a três metros (dez pés) do sigilo. O conjurador pode optar por fazer com que o poro seja ativado automaticamente quando um alvo chegar a menos de um metro (três pés) dele.
+
+O poro inflige 1d6 de dano por dado de vida ou nível do conjurador, até um máximo de 10d6. Inimigos menores não recebem teste de resistência contra o dano, enquanto inimigos dignos podem fazer um teste de resistência de Resistência Física (*Hardiness*) para resistir à explosão sem sofrer danos. Uma vez descarregado, o poro desaparece. Um segundo poro não pode ser colocado dentro da área de efeito do primeiro.
+
+## Fileiras de Ossos Pálidos (*Ranks of Pale Bone*)
+O teurgo impregna cadáveres ou outros restos mortais com uma força animadora, erguendo-os como mortos-vivos menores sem alma. Para cada dado de vida ou nível do conjurador, 1d6 dados de vida de mortos-vivos menores podem ser erguidos, assumindo que haja matéria-prima suficiente disponível. Os cadáveres não precisam estar intactos, pois ossos e tecidos se fundirão e fluirão sob a feitiçaria. No entanto, mortos-vivos que já tenham sido destruídos uma vez não são mais úteis para a necromancia.
+
+A grande maioria dos cadáveres de tamanho humano ergue-se como mortos-vivos de 1 dado de vida, embora os cadáveres de bestas terríveis ou Desgarrados (*Misbegotten*) temíveis possam ser mais perigosos. As criaturas erguidas são leais sem mente ao teurgo ou a quaisquer tenentes que ele indique, mas de resto agem como a maioria dos mortos-vivos menores. Eles permanecem animados até serem destruídos ou até que a invocação que alimenta sua existência seja dissipada. Se o seu criador for morto, as criaturas erguidas correrão desenfreadas contra os vivos.
+
+## Selo de Regnal Dominion (*Seal of Regnal Dominion*)
+O teurgo desenha um sinal de luz esmeralda pálida no ar diante do alvo escolhido, subvertendo sua vontade para a do próprio conjurador. Enquanto sob os efeitos do selo, a vítima é absolutamente obediente aos comandos do teurgo, mesmo aqueles suicidas ou repugnantes para ela. Ela tentará cumprir as instruções da melhor maneira possível e de acordo com sua inteligência natural. Alvos animais ou aqueles que não compartilham de um idioma com o teurgo só podem ser feitos para entender comandos de uma única palavra.
+
+Um teurgo pode ter sob o efeito do selo, de uma só vez, no máximo tantos vassalos quantos forem seus níveis ou dados de vida. Inimigos menores não têm chance de escapar deste domínio, enquanto inimigos dignos podem fazer um teste de resistência de Espírito para resistir, e outro cada vez que receberem um comando odioso do teurgo. Se não forem resistidos, os efeitos do selo permanecem até serem dissipados ou cancelados pelo conjurador.
+
+## Despedaçar a Magia Menor (*Sunder the Lesser Spell*)
+O teurgo rasga os delicados fios da feitiçaria teúrgica ao redor de um alvo à vista. Uma única invocação de teurgia do Portão é instantaneamente dissipada, junto com qualquer número de encantamentos de magia baixa em um raio de dez metros (trinta pés) do ponto-alvo escolhido.
+
+No entanto, quebrar a magia teúrgica sempre envolve um grau de *feedback*, de modo que o teurgo sofre um dado de dano de 1d10 cada vez que esta magia encerra uma invocação. Esse dano não pode ser evitado ou negado sem estragar o efeito da magia.
+
+## A Cavalaria de Ferro Incansável (*The Tireless Iron Cavalcade*)
+O teurgo convoca corcéis de ferro negro e brasas, com os cavalos surgindo da terra diante do conjurador. Cavalos suficientes são convocados para servir a até uma dúzia de companheiros. Os construtos são incansáveis e perfeitamente obedientes aos seus cavaleiros, permitindo que seus mestres cruzem trinta quilômetros (vinte milhas) de distância a cada hora que cavalgam, ou metade disso ao cruzar terrenos acidentados.
+
+As feras naturais temem os corcéis e nunca se aproximarão deles. Os cavalos não lutam, mas possuem uma Classe de Armadura 0 e cinco dados de vida cada um para fins de suportar danos. Eles nunca entram em pânico e são imunes a influências mentais e outras paixões mortais convencionais.
+
+Embora velozes e obedientes, os cavalos drenam a fertilidade de debaixo de seus cascos para alimentar suas carapaças de metal. As marcas de cascos escurecidas tornam trivialmente fácil rastrear os cavaleiros por até um mês depois. As marcas feitas pelos cascos são pequenas demais para causar danos substanciais à fertilidade geral de uma área ou ao rendimento das colheitas.
+
+## A Trombeta de Pronunciação Distante (*The Trumpet of Far Utterance*)
+Esta invocação requer uma conexão arcana com o alvo desejado, embora amigos íntimos ou companheiros de panteão possam ser contatados sem o benefício de tal elo. Quando conjurada, a invocação evoca uma imagem diáfana do alvo e um eco de cinco pés de raio de seus arredores. Um fantasma semelhante do conjurador aparece na proximidade do alvo. O conjurador e o alvo podem falar um com o outro através desses fantasmas, e um único objeto inanimado com no máximo quatro quilos e meio (dez libras) de peso pode ser passado entre os dois. O elo tênue produz uma chance de 25% de que o objeto seja perdido em trânsito em algum lugar na distância entre os dois, embora seja fornecido um breve vislumbre de seu lugar de descanso.
+
+O elo dura até que o conjurador o desconsidere, com um limite de uma hora. Se o alvo não deseja aceitar o contato, inimigos dignos podem rolar um teste de Espírito para resistir. Se o contato foi indesejado, a conexão arcana desmorona após a conclusão da magia, enquanto uma comunicação voluntária deixa a conexão intacta e utilizável mais uma vez.

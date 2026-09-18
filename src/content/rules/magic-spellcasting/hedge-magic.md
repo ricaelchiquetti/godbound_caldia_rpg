@@ -1,0 +1,19 @@
+# Magia Caseira
+
+Uma prática que exige anos de estudo laborioso, a magia caseira ensina a seus discípulos o conhecimento sutil do povo comum, suas curas, épocas de plantio e amuletos de boa sorte. Na maioria dos lugares, esta tradição é fortemente revestida pelas superstições e tradições dos praticantes locais, exigindo que uma enorme quantidade de esforço seja gasta antes que qualquer magia verdadeira seja aprendida.
+
+Embora quase qualquer homem ou mulher razoavelmente inteligente possa aprender a usar as artes desconexas do mago caseiro, o ofício exige tempo e trabalho paciente. Aprendizes e adeptos na verdade não possuem poderes mágicos e são simplesmente versados em todo o conhecimento necessário para o homem ou mulher sábia de uma vila. Trate a familiaridade com esta tradição como um Fato útil quando tal conhecimento for relevante para um teste de atributo. A magia caseira leva o tempo ritual habitual para ser conjurada.
+
+Magos caseiros são encontrados por todo o Arcem. Quase todo vilarejo que se preze tem pelo menos um aprendiz da arte em residência, embora a vasta maioria desses "magos" não tenha nenhum talento mágico. Adeptos são os mais comumente encontrados, sendo que a grande maioria daqueles raros poucos com verdadeiro potencial arcano nunca tem a oportunidade de desenvolver magia. Apenas quando seu professor também é verdadeiramente talentoso é que eles têm a chance de aprender os segredos mais profundos das raízes, das estações e de como lidar com vizinhos problemáticos. É claro que possuir verdadeira magia pode ser uma maldição quando esses vizinhos começam a exigir milagres de você.
+
+## Aprendiz
+Aprendizes de magos caseiros estudam ervas, gado, os rudimentos da adivinhação e a fabricação das ferramentas e amuletos necessários para trabalhos futuros. Nenhuma magia verdadeira é aprendida neste nível de experiência. A maioria é colocada como aprendiz ainda jovem e domina este nível de especialização antes do décimo oitavo aniversário.
+
+## Adepto
+Adeptos são curandeiros e herbalistas proficientes, além de talentosos em lidar tanto com humanos quanto com animais. Eles sabem muito sobre como lidar com as pessoas, mantendo o povo comum no devido respeito por seu aprendizado sem prometer demais ou inspirar pavor excessivo. A maioria das vilas possui magos caseiros com este nível de especialização, dispondo de conhecimento, mas sem nenhuma magia verdadeira sob seu comando.
+
+## Mestre
+Este grau raramente é alcançado antes do quinquagésimo inverno de um adepto. O mago agora pode realizar magia verdadeira, embora de um tipo modesto e sutil. Eles podem curar gado doente e pequenas enfermidades humanas, garantir que ferimentos cicatrizem limpidamente, encontrar objetos perdidos em terrenos familiares, trazer sorte ou infortúnio para um empreendimento específico (+/-2 em testes de atributos relevantes), ou realizar rituais que restabelecem o vigor e a vivacidade a um grupo.
+
+## Arquimago
+Apenas os mais velhos e sábios dos magos caseiros atingem este grau de maestria. Eles podem quebrar maldições mortais, curar milagrosamente ferimentos físicos em 1d6 dados de vida de cura, curar quaisquer doenças não mágicas, abençoar ou amaldiçoar um empreendimento de modo a rolar duas vezes em um teste de atributo e ficar com o melhor ou pior resultado, identificar as propriedades gerais de objetos ou efeitos mágicos, enfeitiçar pessoas para a amizade ou inimizade, ou prever um futuro próximo muito provável para uma pessoa. Qualquer cura exige que o recebedor Empenhe Esforço (Commit Effort) pelo dia para assimilar o poder. Aqueles sem Esforço listado podem se beneficiar da cura uma vez por dia.

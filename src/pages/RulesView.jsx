@@ -4,6 +4,8 @@ import CharacterCreationGuideView from '../components/CharacterCreationGuideView
 import GameRulesView from '../components/GameRulesView';
 import DivinePowerView from '../components/DivinePowerView';
 import WordsCreationView from '../components/WordsCreationView';
+import MagicSpellcastingView from '../components/MagicSpellcastingView';
+import TheurgyInvocationsView from '../components/TheurgyInvocationsView';
 import FavoritesView from '../components/FavoritesView';
 import { FavoritesProvider, useFavorites } from '../context/FavoritesContext';
 
@@ -16,6 +18,8 @@ function RulesContent() {
     { id: 'rules', label: 'As Regras do Jogo', Component: GameRulesView },
     { id: 'divine-power', label: 'Poderes Divinos', Component: DivinePowerView },
     { id: 'words-creation', label: 'As Palavras da Criação', Component: WordsCreationView },
+    { id: 'magic-spellcasting', label: 'Magia e Conjuração', Component: MagicSpellcastingView },
+    { id: 'theurgy-invocations', label: 'Teurgia e Invocações', Component: TheurgyInvocationsView },
     { id: 'favorites', label: `★ Dádivas Favoritos (${favorites.length})`, Component: (props) => <FavoritesView {...props} setActiveTabId={setActiveTabId} /> },
   ];
 
