@@ -1,6 +1,4 @@
-import React from 'react';
-import GuideSidebar from '../components/GuideSidebar';
-import MarkdownDocView from '../components/MarkdownDocView';
+import GuideLayout from './GuideLayout';
 
 // Mapeamento explícito com o nome do arquivo, ID de rolagem e Título correto (com acentos)
 const SECTION_CONFIG = [
@@ -30,19 +28,5 @@ const sections = SECTION_CONFIG.map(({ file, id, label }) => {
 });
 
 export default function CharacterCreationGuideView() {
-  return (
-    <div className="flex gap-8 max-w-7xl mx-auto p-6">
-      <GuideSidebar sections={sections} />
-      <main className="flex-1 space-y-10">
-        {sections.map(({ id, content }) => (
-          <section
-            key={id}
-            id={id}
-          >
-            <MarkdownDocView content={content} />
-          </section>
-        ))}
-      </main>
-    </div>
-  );
+  return <GuideLayout sections={sections}/>;
 }

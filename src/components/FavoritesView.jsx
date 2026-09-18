@@ -66,7 +66,7 @@ export default function FavoritesView({ setActiveTabId }) {
   return (
     <div className="p-8 bg-white/88 border border-[var(--dd-gold)] shadow-md text-[#2c2c2c] leading-relaxed">
       <div>
-        <h2 className="text-[var(--dd-red)] m-0 font-bold text-xl mb-4">
+        <h2 className="text-[var(--dd-red)] m-0 font-bold text-2xl mb-4">
           ★ Dádivas Favoritas ({totalFavoritesCount})
         </h2>
         <p className="mb-5 text-sm">

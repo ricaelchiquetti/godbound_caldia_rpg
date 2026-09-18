@@ -19,7 +19,7 @@ export default function WordsCreationView() {
       {!selectedWord ? (
         <div>
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b-2 border-[var(--dd-gold)] pb-3 mb-4">
-            <h2 className="text-[var(--dd-red)] m-0 font-bold text-xl">
+            <h2 className="text-[var(--dd-red)] m-0 font-bold text-3xl">
               As Palavras da Criação
             </h2>
 

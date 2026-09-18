@@ -6,9 +6,12 @@ import GodCard from '../components/GodCard';
 export default function Pantheon() {
   return (
     <PageLayout title="O Panteão">
-      <p>Abaixo estão registradas as entidades que os mortais ousam chamar de deuses e seus domínios neste mundo despedaçado.</p>
+      <p className="text-lg text-gray-800 leading-relaxed mb-6">
+        Abaixo estão registradas as entidades que os mortais ousam chamar de deuses e seus domínios neste mundo despedaçado.
+      </p>
       
-      <div className="god-grid">
+      {/* Grid responsivo adaptado para Mobile First */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
         {deusesIniciais.map((deus, idx) => (
           <GodCard key={idx} deus={deus} />
         ))}

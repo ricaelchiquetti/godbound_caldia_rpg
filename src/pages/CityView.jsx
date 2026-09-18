@@ -9,12 +9,16 @@ export default function CityView() {
 
   return (
     <PageLayout title="Nações e Territórios">
-      {/* Menu Reativo de Cidades */}
-      <div className="city-nav">
+      {/* Menu Reativo de Cidades (Adaptado para Mobile First com flex-wrap) */}
+      <div className="flex flex-wrap gap-2 mb-6">
         {cidades.map((cidade) => (
           <button 
             key={cidade.id}
-            className={`city-tab ${activeCityId === cidade.id ? 'active' : ''}`}
+            className={`px-4 py-2 font-serif font-bold text-sm border transition-all rounded-sm ${
+              activeCityId === cidade.id
+                ? 'bg-dd-red text-parchment border-dd-gold shadow-sm'
+                : 'bg-parchment-dark text-dd-red border-dd-red-light/40 hover:bg-dd-red/10'
+            }`}
             onClick={() => setActiveCityId(cidade.id)}
           >
             {cidade.nome}
@@ -22,35 +26,45 @@ export default function CityView() {
         ))}
       </div>
 
-      {/* Conteúdo da Cidade Ativa */}
-      <div style={{ animation: 'fadeIn 0.5s ease-in-out' }}>
-        <h3>{cidadeAtiva.nome}</h3>
+      {/* Conteúdo da Cidade Ativa com animação suave */}
+      <div className="animate-fadeIn space-y-6 bg-white/40 p-4 md:p-6 border border-dd-gold rounded-sm shadow-md">
+        <h3 className="text-2xl font-serif text-dd-red font-bold">
+          {cidadeAtiva.nome}
+        </h3>
         
         {cidadeAtiva.imagem && (
-          <img 
-            src={cidadeAtiva.imagem} 
-            alt={cidadeAtiva.nome} 
-            style={{ width: '100%', height: '300px', objectFit: 'cover', border: '2px solid var(--dd-gold)', marginBottom: '20px' }}
-          />
+          <div className="overflow-hidden rounded border-2 border-dd-gold shadow-sm">
+            <img 
+              src={cidadeAtiva.imagem} 
+              alt={cidadeAtiva.nome} 
+              className="w-full h-48 md:h-[300px] object-cover hover:scale-105 transition-transform duration-500"
+            />
+          </div>
         )}
         
-        <p style={{ fontSize: '1.1em', marginBottom: '20px', whiteSpace: 'pre-line' }}>
+        <p className="text-lg leading-relaxed text-gray-800 text-justify whitespace-pre-line">
           {cidadeAtiva.descricao}
         </p>
         
-        <ul>
+        <ul className="list-disc list-inside space-y-2 text-gray-800">
           {cidadeAtiva.detalhes.map((detalhe, idx) => (
-            <li key={idx} style={{ marginBottom: '10px' }}>{detalhe}</li>
+            <li key={idx} className="leading-relaxed">
+              {detalhe}
+            </li>
           ))}
         </ul>
 
         {/* Renderização Condicional de NPCs */}
         {cidadeAtiva.npcs.length > 0 && (
-          <div style={{ marginTop: '40px' }}>
-            <h3 style={{ color: '#231f20', borderBottom: '1px solid var(--dd-red)' }}>Figuras Notáveis</h3>
-            {cidadeAtiva.npcs.map((npc, idx) => (
-              <NpcCard key={idx} npc={npc} />
-            ))}
+          <div className="mt-8 pt-6 border-t border-dd-red/30">
+            <h3 className="text-xl font-serif text-text-dark font-bold mb-4 border-b border-dd-red pb-2">
+              Figuras Notáveis
+            </h3>
+            <div className="space-y-4">
+              {cidadeAtiva.npcs.map((npc, idx) => (
+                <NpcCard key={idx} npc={npc} />
+              ))}
+            </div>
           </div>
         )}
       </div>
