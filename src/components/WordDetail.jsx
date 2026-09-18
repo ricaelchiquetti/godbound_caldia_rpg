@@ -11,7 +11,7 @@ export default function WordDetail({ word, onBack }) {
       {gifts && gifts.length > 0 ? (
         <div className="space-y-4">
           {gifts.map((gift, index) => (
-            <WordGiftCard key={index} gift={gift} />
+            <WordGiftCard key={index} gift={gift} wordId={word.id}/>
           ))}
         </div>
       ) : (
