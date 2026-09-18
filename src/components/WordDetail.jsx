@@ -24,12 +24,12 @@ export default function WordDetail({ word, onBack }) {
 
   return (
     <div>
-      <button 
-        onClick={onBack}
-        className="bg-[var(--dd-red)] hover:opacity-90 text-white font-bold py-2 px-4 rounded border-0 cursor-pointer mb-5 shadow transition-opacity text-sm"
-      >
-        ← Voltar para a Lista de Palavras
-      </button>
+    <button 
+      onClick={onBack}
+      className="bg-dd-red text-parchment font-serif font-bold py-2 px-4 rounded border border-dd-gold cursor-pointer mb-5 shadow-sm hover:bg-dd-red-light transition-all text-sm flex items-center gap-2"
+    >
+      <span>←</span> Voltar para a Lista de Palavras
+    </button>
 
       <PageTitle>{word.name}</PageTitle>
       
