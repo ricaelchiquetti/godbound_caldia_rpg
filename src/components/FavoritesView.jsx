@@ -94,7 +94,7 @@ export default function FavoritesView({ setActiveTabId }) {
             {setActiveTabId && (
               <button
                 onClick={() => setActiveTabId('words-creation')}
-                className="bg-[var(--dd-red)] text-white font-bold py-2 px-4 rounded border-0 cursor-pointer text-sm hover:opacity-90 transition-opacity"
+                className="bg-dd-red text-parchment font-serif font-bold py-2 px-4 rounded border border-dd-gold cursor-pointer text-sm shadow-sm hover:bg-dd-red-light transition-all"
               >
                 Explorar Palavras e Dádivas
               </button>
