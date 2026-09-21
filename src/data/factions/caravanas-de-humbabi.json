@@ -1,12 +1,10 @@
 {
-  "id": "caravanas-de-humbabi",
+  "id": "caravanas-de-hum'babi",
   "name": "Caravanas de Hum'babi",
-  "image": "/assets/img/faccoes/caravanas_humbabi.jpeg",
-  "description": "As Caravanas de Hum'babi figuram entre os pequenos reinos e organizações que, até o momento, não fazem parte de nenhuma das grandes nações de Caldia. O material disponível apenas registra sua existência como um grupo independente de caravanas. Sua estrutura, origem, liderança, rotas e relações ainda não foram detalhadas.",
+  "image": "",
+  "description": "Organização de caravanas mercantis nômades que percorre as estradas perigosas de Caldia.",
   "details": [
-    "São uma organização independente.",
-    "Não fazem parte, até o momento, de nenhuma das grandes nações.",
-    "O material disponível ainda não estabelece sua estrutura, liderança ou origem."
+    "Realizam escambo e transporte de mercadorias exóticas entre nações rivais."
   ],
   "npcs": []
 }

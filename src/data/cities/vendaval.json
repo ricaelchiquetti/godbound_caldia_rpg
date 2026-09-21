@@ -1,0 +1,39 @@
+{
+  "id": "vendaval",
+  "name": "Vendaval",
+  "image": "",
+  "description": "Vilarejo erguido entre copas de pinheiros e pontes suspensas de corda nas florestas gélidas do interior das Escarpas Frígidas. É o lar do Clã Stuart, um povo que coloca a liberdade individual acima de tudo.",
+  "details": [
+    "O Clã Stuart venera Garuda como expressão do céu indomável.",
+    "É proibido usar pentes ou tranças militares. Manter os cabelos soltos simboliza liberdade.",
+    "Vendaval acolhe exilados e escravos fugitivos das cavernas de Okum.",
+    "O vilarejo sofre com ataques de Yetis albinos, que foram empurrados para as florestas baixas após o inverno dizimar os rebanhos de alces.",
+    "Nissandra prepara flechas e óleos incendiários usados contra os Yetis."
+  ],
+  "npcs": [
+    {
+      "name": "Alvin, o Cai de Pé",
+      "role": "Líder do Clã Stuart",
+      "description": "Neto da antiga receptáculo de Garuda que guiou os colonos fundadores. Governa com paciência, sabedoria e acolhimento.",
+      "image": "alvin.jpeg"
+    },
+    {
+      "name": "Nissandra, a Cospe-Fogo",
+      "role": "Esposa de Alvin",
+      "description": "Artista itinerante de circo nascida no sul. Foi capturada por saqueadores de Gorjal, escapou do sacrifício no Fosso dos Afogados e foi resgatada por Alvin.",
+      "image": "nissandra.jpeg"
+    },
+    {
+      "name": "Milissandre",
+      "role": "Filha de Alvin e Nissandra",
+      "description": "Filha primogênita, fascinada pelas histórias do sul e desejosa de conhecer as terras além do gelo.",
+      "image": "milissandre.jpeg"
+    },
+    {
+      "name": "Gaudio",
+      "role": "Filho de Alvin e Nissandra",
+      "description": "Filho caçula e carpinteiro talentoso, estuda o desenho de velas e cascos aerodinâmicos e sonha construir uma nave capaz de velejar pelos ventos do firmamento.",
+      "image": "gaudio.jpeg"
+    }
+  ]
+}

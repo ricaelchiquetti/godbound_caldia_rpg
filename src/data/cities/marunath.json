@@ -1,0 +1,34 @@
+{
+  "id": "marunath",
+  "name": "Marunath",
+  "image": "",
+  "description": "Cidade-trincheira do Alto Jarl, erguida sobre terraços de rocha e estruturas de madeira naval na boca do maior fiorde do Norte. Serve como escudo contra invasões e como centro de comércio entre os clãs das Escarpas Frígidas.",
+  "details": [
+    "Marunath foi fundada por Ringol, receptáculo de Leviathan, e Nataly/Talyn, receptáculo de Shiva.",
+    "Leviathan e Shiva amaldiçoaram a primeira filha do casal por se recusarem a guerrear. A criança nasceu como uma criatura grotesca conhecida como Kraken do Norte.",
+    "Durante uma invasão de Aetergard, Ringol e Nataly foram enfraquecidos pelos próprios deuses, mortos nos salões da cidade, e a criatura foi lançada das escarpas ao mar.",
+    "A tradição do Norte afirma que a criatura sobreviveu e se tornou a legítima Senhora do Abismo.",
+    "O Círculo de Marunath permite que qualquer guerreiro desafie o Alto Jarl. O desafiante golpeia o Escudo de Ferro e deve aguardar três luas para que testemunhas cheguem.",
+    "Pisar fora do círculo durante o duelo é covardia e resulta em banimento. Venenos ou interferência externa resultam em execução."
+  ],
+  "npcs": [
+    {
+      "name": "Ringol",
+      "role": "Antigo fundador de Marunath e receptáculo de Leviathan",
+      "description": "Receptáculo de Leviathan que fundou Marunath ao lado de Nataly/Talyn. Foi morto durante a invasão de Aetergard.",
+      "image": "ringol.jpeg"
+    },
+    {
+      "name": "Nataly / Talyn",
+      "role": "Antiga fundadora de Marunath e receptáculo de Shiva",
+      "description": "Receptáculo de Shiva que fundou Marunath ao lado de Ringol. A grafia do nome aparece como Nataly e Talyn no compêndio.",
+      "image": "nataly.jpeg"
+    },
+    {
+      "name": "Kraken do Norte",
+      "role": "Herdeira lendária do Norte",
+      "description": "Filha de Ringol e Nataly/Talyn, nascida como uma criatura de tentáculos, escamas gélidas e garras abissais. Segundo a lenda, sobreviveu à queda nas fossas oceânicas e é a legítima soberana do Norte.",
+      "image": "kraken-do-norte.jpeg"
+    }
+  ]
+}

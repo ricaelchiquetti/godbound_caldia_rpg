@@ -1,0 +1,40 @@
+{
+  "id": "cla-do-roi-montanha",
+  "name": "Clã do Rói-Montanha",
+  "image": "",
+  "description": "Clã estabelecido nas cavernas da Garganta de Okum, uma passagem marítima crucial entre as águas do Norte e os mares vigiados pelo Ducado. O assentamento nasceu do exílio de Ig, o Tolo, e tornou-se um refúgio fortificado de saqueadores devotos à lendária Rainha das Profundezas.",
+  "details": [
+    "Ig, o Tolo, foi exilado após um conflito com o Alto Jarl de Marunath. Durante uma nevasca, afirmou ter visto um tentáculo colossal abrir a montanha e criar as cavernas que salvaram seu povo.",
+    "O clã cultua a filha de Ringol e Nataly/Talyn como a verdadeira Rainha do Norte.",
+    "O clã controla a passagem de Okum e ataca embarcações do Ducado.",
+    "Gorjal mantém prisioneiros e realiza sacrifícios no Fosso dos Afogados como oferendas à Rainha Kraken.",
+    "Thorsen tolera estrategicamente o clã porque as frotas de Gorjal atuam contra o Ducado e trazem recursos para o Norte.",
+    "Drina e Treva são filhas gêmeas de Gorjal. O filho caçula de Gorjal desapareceu após sua mãe fugir com ele para o sul."
+  ],
+  "npcs": [
+    {
+      "name": "Ig, o Tolo",
+      "role": "Fundador do Clã do Rói-Montanha",
+      "description": "Líder de caça que foi exilado de Marunath. Segundo seu próprio relato, um tentáculo colossal abriu a montanha para salvar sua tribo durante uma nevasca.",
+      "image": "ig.jpeg"
+    },
+    {
+      "name": "Gorjal, o Sanguinário",
+      "role": "Líder atual do clã",
+      "description": "Filho de Ig, guerreiro colossal e impiedoso. Comanda ataques contra o Ducado e mantém o Fosso dos Afogados como local de sacrifícios à Rainha Kraken.",
+      "image": "gorjal.jpeg"
+    },
+    {
+      "name": "Drina, a Corta-Cabeças",
+      "role": "Filha de Gorjal",
+      "description": "Gêmea de Treva, 20 anos. Fanática pela Rainha Kraken; em seus transes sonha liderar serpentes marinhas e enguias gigantes. Mantém prisioneiros como mascotes descartáveis.",
+      "image": "drina.jpeg"
+    },
+    {
+      "name": "Treva, a Fera Enlutada",
+      "role": "Filha de Gorjal",
+      "description": "Gêmea de Drina, 20 anos. Afastou-se parcialmente do fanatismo do pai após se apaixonar por um pescador. Depois da morte do marido, tornou-se uma guerreira marcada pelo luto, mas protetora de sua tripulação no drakkar Arruaceiro.",
+      "image": "treva.jpeg"
+    }
+  ]
+}

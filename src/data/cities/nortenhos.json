@@ -1,27 +1,34 @@
 {
   "id": "nortenhos",
   "name": "Nortenhos",
-  "image": "/assets/img/cidades/nortenhos.jpg",
-  "description": "Os Nortenhos figuram entre as grandes potências de Caldia. O material conhecido até o momento, porém, ainda é escasso. Sabe-se que existem conflitos entre os povos do Norte e as regiões do Sul, e que o mestre está desenvolvendo seus vilarejos nas Escalas Frígidas. Entre os nomes já mencionados encontram-se Alvin, o Cai de Pé, e Gorjal, o Sanguinário, líder dos Rói-Montanha. Mais detalhes sobre sua organização, governo, cultura e territórios ainda não foram estabelecidos no material disponível.",
+  "image": "",
+  "description": "As Escarpas Frígidas ocupam as bordas extremas do continente, onde ventos congelantes encontram o mar e paredões de rocha basáltica e gelo. A região é habitada por clãs independentes que sobrevivem da caça a feras gélidas, da pesca costeira e de um rígido código de honra marcial.",
   "details": [
-    "São uma das grandes potências de Caldia.",
-    "Existem conflitos entre o Norte e as regiões do Sul.",
-    "Seus vilarejos estão sendo desenvolvidos nas Escalas Frígidas.",
-    "Alvin, o Cai de Pé, foi mencionado entre os NPCs dos Nortenhos.",
-    "Gorjal, o Sanguinário, foi mencionado como líder dos Rói-Montanha."
+    "Marunath é a única grande metrópole do Norte e a sede do Alto Jarl.",
+    "As vilas e fortalezas locais possuem grande autonomia e são governadas por anciãos, chefes ou conselhos de caça.",
+    "A lealdade ao Alto Jarl depende principalmente de prestígio marcial e pactos de ajuda mútua.",
+    "Qualquer guerreiro nascido nas Escarpas Frígidas pode reivindicar o título de Alto Jarl por meio do ritual do Escudo de Ferro e do duelo na Arena Sagrada.",
+    "Jarl Thorsen é o atual governante do Norte.",
+    "O Norte mantém uma relação de hostilidade com o Ducado de Aetergard, embora Marunath também funcione como centro de comércio entre os clãs."
   ],
   "npcs": [
     {
-      "name": "Alvin, o Cai de Pé",
-      "role": "NPC dos Nortenhos",
-      "description": "Um dos personagens mencionados durante o desenvolvimento dos vilarejos dos Nortenhos nas Escalas Frígidas. Nenhuma outra informação foi estabelecida no material disponível.",
-      "image": "alvin.jpeg"
+      "name": "Jarl Thorsen",
+      "role": "Alto Jarl do Norte",
+      "description": "Atual governante de Marunath. Mantém seu título porque nenhum desafiante conseguiu derrotá-lo no Círculo de Marunath.",
+      "image": "thorsen.jpeg"
     },
     {
       "name": "Gorjal, o Sanguinário",
-      "role": "Líder dos Rói-Montanha",
-      "description": "Líder dos Rói-Montanha, grupo associado aos Nortenhos. Sua posição e título foram mencionados pelo mestre durante a criação dos vilarejos do Norte.",
+      "role": "Líder do Clã do Rói-Montanha",
+      "description": "Filho de Ig e senhor do Clã do Rói-Montanha. Mantém um pacto de tolerância com Thorsen e conduz ataques contra o Ducado através da Garganta de Okum.",
       "image": "gorjal.jpeg"
+    },
+    {
+      "name": "Alvin, o Cai de Pé",
+      "role": "Líder do Clã Stuart",
+      "description": "Líder de Vendaval, neto da antiga receptáculo de Garuda que guiou os colonos fundadores. Governa com paciência, sabedoria e acolhimento.",
+      "image": "alvin.jpeg"
     }
   ]
 }

@@ -1,54 +1,56 @@
 {
-  "id": "aetergard",
+  "id": "ducado-de-aetergard",
   "name": "Ducado de Aetergard",
-  "image": "/assets/img/cidades/aetergard.jpg",
-  "description": "Forjado a partir da união de outrora fragmentados pequenos reinos, o Ducado de Aetergard ergueu-se como um bastião contra as incessantes e ferozes incursões vindas do Norte. Agraciado por uma geografia generosa, cercada por vergéis férteis e uma prodigiosa abundância animal e vegetal, o território floresceu em autossubsistência e notável prosperidade.\n\nSua governança repousa sobre uma estrutura de duas ordens que se ergue acima dos senhores de terras. Imediatamente superior aos lordes locais encontra-se o Conselho dos Duques, que reúne sob o mesmo estandarte as cinco linhagens mais poderosas da região. No ápice da hierarquia residem os receptáculos divinos de Odin, Ultima e Ramuh. Tendo sido essas encarnações sagradas as artífices da unificação do território, instituiu-se uma lei segundo a qual todo receptáculo dessas divindades possui o direito de empunhar o cetro e reinar sobre o ducado, caso essa seja a sua vontade.\n\nA sucessão ducal e a chefia das nobres linhagens regem-se pela estrita primogenitura varonil. O filho homem mais velho assume a liderança de sua casa. Na ausência de descendentes masculinos, quando existem apenas filhas mulheres, o comando é transferido ao consorte da primogênita, que exerce a regência até que a união conceba um filho homem que atinja a devida maioridade e possa assumir o governo.\n\nEntre as cinco grandes linhagens destaca-se a Casa Aeterian. Célebre pelo domínio dos mares e por suas opulentas rotas de comércio marítimo, a casa aboliu a escravidão em seus domínios, substituindo-a por serviçais e trabalhadores assalariados, e espalhou pequenas escolas pelos vilarejos sob sua influência. Seu patriarca, Lorde Magnus Aeterian, trava uma batalha política para alterar as leis de sucessão e permitir que sua filha primogênita herde o comando da linhagem. A questão ganhou ainda mais peso após sua neta Abigail tornar-se receptáculo de Ultima.\n\nOutra das grandes linhagens é a Casa Boucher, nascida de antigas companhias mercenárias e sustentada pelas fortunas e glórias de seus antepassados. A família mantém uma forte tradição marcial, embora as gerações mais jovens demonstrem cada vez menos interesse pelas armas. Seu sistema sucessório, que permite ao governante possuir uma esposa legítima e até três concubinas, alimentou intrigas, conspirações e assassinatos dentro das fortalezas da família. À frente da casa encontra-se Lorde Gordin Boucher, um nobre decadente cuja antiga glória militar foi substituída por festas e banquetes, enquanto rumores sem provas formais o acusam de crimes contra camponeses e membros da própria família.\n\nNos arredores do ducado também se encontra uma antiga ameaça. Em uma planície infértil e desolada ergue-se a estrutura que deu origem à atual Necrópolis: um colossal monumento em espiral construído há quase um milênio para aprisionar Jessebel Alexyn, antiga receptáculo de Ah Puch. O despertar de hordas de mortos-vivos levanta a suspeita de que seu confinamento tenha sido rompido.",
+  "image": "",
+  "description": "Forjado a partir da união militar e diplomática de pequenos reinos outrora devastados por guerras feudais, o Ducado de Aetergard ergueu-se como um grande bastião de civilização do continente, servindo de escudo contra as incursões bárbaras vindas do Norte. Agraciado por uma geografia próspera de pomares férteis, rios navegáveis e abundância de caça, o território atingiu um nível invejável de autossubsistência.",
   "details": [
-    "Origem: união de pequenos reinos anteriormente fragmentados.",
-    "Principal conflito histórico: defesa contra as incursões vindas do Norte.",
-    "Geografia: território fértil, com abundância animal e vegetal.",
-    "Governo: Conselho dos Duques formado pelas cinco linhagens mais poderosas da região, acima dos senhores locais.",
-    "Autoridade dos receptáculos: receptáculos de Odin, Ultima e Ramuh possuem o direito de assumir o cetro e governar o ducado, caso desejem.",
-    "Sucessão: primogenitura varonil. Na ausência de herdeiros homens, o consorte da primogênita assume a regência até que um filho homem atinja a maioridade.",
-    "Casa Aeterian: linhagem marítima e comercial que aboliu a escravidão em seus domínios e criou pequenas escolas.",
-    "Casa Boucher: antiga linhagem de origem mercenária, marcada por tradição militar e intensas intrigas sucessórias.",
-    "Casa Solistes: linhagem cuja riqueza e soberania se apoiam em uma agricultura excepcional, capaz de produzir em solos considerados estéreis.",
-    "Relação com Arquimedes: os Solistes fornecem víveres à República de Arquimedes em troca do segredo e do uso de seus engenhos republicanos de lavra.",
-    "Lorde Altivius: senhor da Casa Solistes, com cerca de trinta anos, viúvo há seis invernos e pai de Ferrum.",
-    "Ferrum: filho de Altivius, possui dezesseis anos e sangue ferrano por parte de mãe; é considerado o maior orgulho e a promessa da Casa Solistes.",
-    "Origem de Ferrum: sua mãe era das Ilhas dos Ferranos e foi trazida por Altivius quando ele retornou de um período em que fora feito prisioneiro durante uma incursão contra o ducado.",
-    "Ameaça histórica: Necrópolis foi erguida sobre o antigo cárcere de Jessebel Alexyn, receptáculo de Ah Puch."
+    "O Conselho dos Duques reúne os patriarcas das cinco linhagens nobres mais influentes da região.",
+    "No topo da hierarquia social e política estão os receptáculos de Odin, Ultima e Ramuh. Como essas encarnações unificaram Aetergard no passado, todo novo receptáculo dessas divindades possui o direito soberano de assumir a coroa e governar o Ducado, caso manifeste essa vontade.",
+    "A sucessão dos feudos e a chefia das casas nobres seguem a primogenitura varonil estrita. Na ausência de filho homem, o governo passa ao marido da filha primogênita até que a união gere um filho homem que atinja a maioridade.",
+    "As cinco grandes casas nobres são Aeterian, Boucher, Solistes, Justacorin e Varonil."
   ],
   "npcs": [
     {
-      "name": "Abigail Aeterian",
-      "role": "Receptáculo de Ultima",
-      "description": "Neta de Lorde Magnus Aeterian. Sua consagração como receptáculo de Ultima possui grande importância para a Casa Aeterian e para a disputa política em torno das leis de sucessão do ducado.",
-      "image": "abigail_aeterian.jpeg"
-    },
-    {
       "name": "Lorde Magnus Aeterian",
       "role": "Patriarca da Casa Aeterian",
-      "description": "Patriarca de noventa anos e quase cego. Comanda a Casa Aeterian e foi responsável por abolir a escravidão em seus domínios e promover a instrução do povo. Após sua neta Abigail tornar-se receptáculo de Ultima, Magnus passou a travar uma batalha política no Conselho dos Duques para alterar a lei de sucessão e garantir que sua filha primogênita herde o comando da casa em vez de seu genro.",
-      "image": "magnus_aeterian.jpeg"
+      "description": "Patriarca de 90 anos, quase cego. Presenciou sua neta Abigail tornar-se receptáculo de Ultima e trava uma disputa política no Conselho para reformar a lei sucessória e permitir que sua filha primogênita herde diretamente a casa.",
+      "image": "magnus-aeterian.jpeg"
     },
     {
       "name": "Lorde Gordin Boucher",
-      "role": "Senhor da Casa Boucher",
-      "description": "Nobre fanfarrão e decadente, antigo cavaleiro que em sua juventude empunhava a lança e cavalgava com os exércitos. Atualmente vive entre festejos e banquetes. Existem rumores, ainda sem provas formais, de que comete crimes e ultrajes contra os camponeses de seus domínios e contra membros de sua própria família.",
-      "image": "gordin_boucher.jpeg"
+      "role": "Patriarca da Casa Boucher",
+      "description": "Nobre fanfarrão e decadente, ligado a uma linhagem de origem mercenária. A casa é marcada por intrigas sucessórias, assassinatos velados e pelo uso de vilarejos como fonte de tropas para o exército ducal.",
+      "image": "gordin-boucher.jpeg"
     },
     {
-      "name": "Lorde Altivius",
-      "role": "Senhor da Casa Solistes",
-      "description": "Lorde da Casa Solistes, com cerca de trinta anos. Após a morte de sua consorte, há seis invernos, não voltou a se casar e dedicou-se à preparação e educação de seu filho Ferrum. Durante uma violenta incursão dos ferranos contra o ducado, Altivius comandou as defesas e acabou sendo levado como prisioneiro. Exatamente um ano depois, retornou das ilhas trazendo consigo a mulher que se tornaria sua senhora e o filho recém-nascido do casal. Ao lado de Ferrum, estabeleceu um acordo com a República de Arquimedes que permitiu à Casa Solistes utilizar os engenhos republicanos de lavra em troca do fornecimento de víveres.",
+      "name": "Lorde Altivius Solistes",
+      "role": "Patriarca da Casa Solistes",
+      "description": "Lorde de 30 anos, viúvo há seis anos. Recusa-se a casar novamente e dedica sua vida à educação de Ferrum. Ao lado do filho, estabeleceu o acordo que permite aos Solistes usar engenhos agrícolas de Arquimedes em troca de víveres.",
       "image": "altivius.jpeg"
     },
     {
       "name": "Ferrum Solistes",
       "role": "Herdeiro da Casa Solistes",
-      "description": "Filho de Lorde Altivius, Ferrum possui dezesseis anos e é considerado o maior orgulho e a promessa dourada da Casa Solistes. Carrega nas veias o sangue dos ferranos por parte de sua mãe, oriunda das Ilhas dos Ferranos. Ao lado do pai, participou do acordo que permitiu aos Solistes obter o segredo e o uso dos engenhos republicanos de lavra de Arquimedes.",
+      "description": "Filho de Altivius, de 16 anos, considerado o maior orgulho e promessa da Casa Solistes. Possui sangue ferrano por parte de mãe, uma nobre das Ilhas Ferranas que Altivius conheceu depois de ser capturado durante uma incursão.",
       "image": "ferrum.jpeg"
+    },
+    {
+      "name": "Lorde Dian Justacorin",
+      "role": "Patriarca da Casa Justacorin",
+      "description": "Lorde de cerca de 20 anos, assumiu a casa após a morte do pai. Foi criado em severa reclusão e educado por tutores particulares. Recusa propostas matrimoniais, aguardando alguém que considere de honra e nobreza excepcionais.",
+      "image": "dian-justacorin.jpeg"
+    },
+    {
+      "name": "Lorde Cassian Varonil",
+      "role": "Patriarca da Casa Varonil",
+      "description": "Senhor austero e calculista. A Casa Varonil busca concentrar o poder do Ducado sob seu controle. Cassian acompanha as fraquezas dos demais patriarcas e prepara-se para tomar o poder supremo quando surgir a oportunidade.",
+      "image": "cassian-varonil.jpeg"
+    },
+    {
+      "name": "Abigail",
+      "role": "Receptáculo de Ultima",
+      "description": "Neta de Magnus Aeterian e receptáculo da deusa Ultima.",
+      "image": "abigail.jpeg"
     }
   ]
 }
