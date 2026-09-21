@@ -2,133 +2,133 @@
   {
     "id": "allag",
     "name": "Allag (O Primeiro)",
-    "domain": "O Conhecimento Divino",
+    "domain": "Conhecimento, Artifício",
     "description": "A civilização perdida que beirava a divindade.",
     "image": "placeholder_deus.jpeg"
   },
   {
     "id": "leviathan",
     "name": "Leviathan",
-    "domain": "Abismo e Oceanos",
+    "domain": "Mar, Submundo",
     "description": "A serpente primordial que habita as profundezas insondáveis dos mares.",
     "image": "leviathan.jpeg"
   },
   {
     "id": "hefesto",
     "name": "Hefesto",
-    "domain": "Forja e Fogo",
+    "domain": "Fogo, Artifício",
     "description": "O mestre artesão divino, moldando metais e engrenagens com chamas eternas.",
     "image": "hefesto.jpeg"
   },
   {
     "id": "epofis",
     "name": "Epófis",
-    "domain": "Caos e Trevas",
+    "domain": "Entropia, Noite",
     "description": "A serpente do submundo que busca eternamente devorar a luz do sol.",
     "image": "epofis.jpeg"
   },
   {
     "id": "fenix",
     "name": "Fenix",
-    "domain": "Renascimento e Cinzas",
+    "domain": "Fogo, Pássaros",
     "description": "A ave imortal que consome a si mesma para renascer mais forte a cada ciclo.",
     "image": "fenix.jpeg"
   },
   {
     "id": "ah-puch",
     "name": "Ah Puch",
-    "domain": "Morte e Decadência",
+    "domain": "Morte, Submundo",
     "description": "O senhor dos nove infernos e guardião dos espíritos que partiram.",
     "image": "ah_puch.jpeg"
   },
   {
     "id": "shiva",
     "name": "Shiva",
-    "domain": "Destruição e Criação",
+    "domain": "Dança, Entropia",
     "description": "A dança cósmica que encerra eras para dar início a novos universos.",
     "image": "shiva.jpeg"
   },
   {
     "id": "loki",
     "name": "Loki",
-    "domain": "Ilusão e Artimanha",
+    "domain": "Feitiçaria, Ilusão",
     "description": "O trapaceiro imprevisível cujas maquinações moldam o destino dos mundos.",
     "image": "loki.jpeg"
   },
   {
     "id": "titan",
     "name": "Titan",
-    "domain": "Força Primordial",
+    "domain": "Terra, Resistência",
     "description": "Os gigantes que sustentam o peso dos céus e a base da terra.",
     "image": "titan.jpeg"
   },
   {
     "id": "shub-niggurath",
     "name": "Shub-Niggurath",
-    "domain": "Fertilidade Cósmica",
+    "domain": "Fertilidade, Feras",
     "description": "A cabra negra dos bosques de mil filhotes, fonte de vida incompreensível.",
     "image": "shub_niggurath.jpeg"
   },
   {
     "id": "ramuh",
     "name": "Ramuh",
-    "domain": "Raio e Julgamento",
+    "domain": "Céu, Comando",
     "description": "O sábio ancião que comanda as tempestades e os relâmpagos dos céus.",
     "image": "ramuh.jpeg"
   },
   {
     "id": "eris",
     "name": "Éris",
-    "domain": "Discórdia e Conflito",
+    "domain": "Entropia, Loucura",
     "description": "A força caótica que instiga a rivalidade e desfaz alianças frágeis.",
     "image": "eris.jpeg"
   },
   {
     "id": "ifrit",
     "name": "Ifrit",
-    "domain": "Chamas do Deserto",
+    "domain": "Fogo, Deserto",
     "description": "O espírito elemental do fogo ardente nascido das areias escaldantes.",
     "image": "ifrit.jpeg"
   },
   {
     "id": "makaria",
     "name": "Makária",
-    "domain": "Morte Abençoada",
+    "domain": "Morte, Noite",
     "description": "A personificação do descanso eterno e da passagem pacífica.",
     "image": "makaria.jpeg"
   },
   {
     "id": "odin",
     "name": "Odin",
-    "domain": "Sabedoria e Guerra",
+    "domain": "Comando, Desejo",
     "description": "O Pai de Todos que busca o conhecimento supremo através de sacrifícios.",
     "image": "odin.jpeg"
   },
   {
     "id": "garuda",
     "name": "Garuda",
-    "domain": "Céus e Ventos",
+    "domain": "Céu, Pássaros",
     "description": "O senhor alado dos ventos solares e protetor contra as serpentes do mal.",
     "image": "garuda.jpeg"
   },
   {
     "id": "jormungand",
     "name": "Jormungand",
-    "domain": "Serpente do Mundo",
+    "domain": "Terra, Mar",
     "description": "A colossal serpente marinha que abraça os oceanos e cerca o globo.",
     "image": "jormungand.jpeg"
   },
   {
     "id": "ultima",
     "name": "Ultima",
-    "domain": "Magia Suprema",
+    "domain": "Feitiçaria, Tempo",
     "description": "A essência arcana definitiva que transcende as leis mortais.",
     "image": "ultima.jpeg"
   },
   {
     "id": "freyja",
     "name": "Freyja",
-    "domain": "Amor e Guerra",
+    "domain": "Paixão, Guerra",
     "description": "A deusa que conduz as valquírias e governa as paixões mais intensas.",
     "image": "freyja.jpeg"
   }

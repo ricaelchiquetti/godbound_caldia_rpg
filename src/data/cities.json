@@ -15,13 +15,28 @@
     "id": "aetergard",
     "name": "Ducado de Aetergard",
     "image": "/assets/img/cidades/aetergard.jpg",
-    "description": "O Ducado de Aetergard é uma nação que se ergueu das cinzas do antigo Império de Allag, mantendo viva a chama da civilização perdida. Governado por uma monarquia constitucional, o ducado é um centro de cultura, comércio e conhecimento, atraindo estudiosos e aventureiros de todas as partes do continente.",
+    "description": "Forjado a partir da união de outrora fragmentados pequenos reinos que se ergueram sobre as cinzas do antigo Império de Allag, o Ducado de Aetergard é um bastião inabalável contra as ferozes incursões do Norte. Agraciado por uma geografia generosa, cercada por vergéis férteis, prósperas rotas de comércio marítimo e abundante vida natural, o território floresceu em autossubsistência e riqueza. Sua governança é estruturada em duas ordens: o Conselho dos Duques — formado pelas cinco mais influentes linhagens nobres — e, no ápice, a autoridade sagrada dos receptáculos divinos de Odin, Ultima e Ramuh, cujos poderes garantem o direito perene e inalienável de reinar sobre o ducado.",
     "details": [
-      "Estrutura de Governo: Monarquia Constitucional.",
-      "Líder Supremo: Duque ou Duquesa, com poderes limitados pelo Parlamento.",
-      "Direito a Voto: Todos os cidadãos maiores de 18 anos."
+      "Estrutura de Governo: Monarquia constitucional e teocrática regida pelo Conselho dos Duques (representando as 5 grandes linhagens) e tutelada pelos Receptáculos Divinos de Odin, Ultima e Ramuh.",
+      "Direito Sagrado ao Trono: Qualquer receptáculo consagrado de Odin, Ultima ou Ramuh possui o direito inviolável de assumir o cetro e governar o ducado caso assim deseje.",
+      "Lei de Sucessão Patriarcal: A chefia das casas nobres e a herança regem-se pela estrita primogenitura varonil. Na ausência de herdeiros homens, o consorte da primogênita assume a regência até que um filho homem atinja a maioridade.",
+      "Vanguarda e Abolição: Sob a liderança da influente Casa Aeterian, a escravidão foi abolida em parte dos domínios em favor de trabalho assalariado e da criação de escolas para o povo comum.",
+      "Direito a Voto: Cidadãos maiores de 18 anos possuem representação nas decisões legislativas do Parlamento local."
     ],
-    "npcs": []
+    "npcs": [
+      {
+        "name": "Lorde Magnus Aeterian",
+        "role": "Patriarca da Casa Aeterian",
+        "description": "Venerável patriarca de 90 anos, quase cego, que comanda a nobre Casa Aeterian. Pioneiro ao banir a escravidão e promover a instrução em suas terras, trava hoje uma intensa batalha política no Conselho dos Duques para alterar as leis de sucessão patriarcal, visando garantir que sua filha primogênita herde o comando da casa em vez de seu genro.",
+        "image": "magnus_aeterian.jpeg"
+      },
+      {
+        "name": "Abigail Aeterian",
+        "role": "Receptáculo de Ultima",
+        "description": "Neta de Lorde Magnus, cuja recente consagração como receptáculo divino de Ultima abalou o cenário político do ducado, concedendo um peso político imenso à Casa Aeterian e reascendendo as disputas pelo direito sagrado ao trono supremo de Aetergard.",
+        "image": "abigail_aeterian.jpeg"
+      }
+    ]
   },
   {
     "id": "republica-arquimedes",
