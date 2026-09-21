@@ -1,0 +1,26 @@
+{
+  "id": "ortodoxia-do-deus-dragao",
+  "name": "Ortodoxia do Deus Dragão",
+  "image": "/assets/img/faccoes/ortodoxia.jpg",
+  "description": "A Ortodoxia do Deus Dragão ocupa uma ilha rica em minério de ferro e famosa por suas cavernas submersas. Antes de se tornar uma nação independente, a ilha era um assentamento dos Reinos de Ferro.\n\nQuando Ifrit atacou a ilha, os poucos sobreviventes que se refugiaram em seu interior ouviram a voz de um dragão e encontraram um crânio preso a uma colossal jazida de minério de ferro. Embora parecesse comum, aquele ferro possuía propriedades divinas e recebeu o nome de oricalco.\n\nGuiados pela voz do dragão, os sobreviventes romperam com os Reinos de Ferro e fundaram sua própria nação. Seu governo passou a ser conduzido por um Papa, escolhido por dominar a Palavra do Dragão. O domínio desse poder determina a reputação e a autoridade daquele que ocupa o cargo.\n\nAqueles que nascem sem domínio perfeito da Palavra do Dragão, mas demonstram aptidão, são treinados desde pequenos para se tornarem Lanceiros Draconianos, o braço militar da Igreja. Dez deles foram capazes de matar um receptáculo recém-desperto.\n\nO atual Papa é Alexan Augustus IV, filho de pescadores que alcançou o posto máximo da Ortodoxia. Possui controle completo da Palavra do Dragão e, assim como os ferranos, busca limpar o mundo dos falsos deuses. Para garantir recursos, estabeleceu tratados com os Reinos de Ferro.",
+  "details": [
+    "Origem: antigo assentamento dos Reinos de Ferro.",
+    "Independência: ocorreu após o ataque de Ifrit e a revelação da voz do dragão.",
+    "Território: ilha rica em minério de ferro e conhecida por cavernas submersas.",
+    "Oricalco: minério de propriedades divinas encontrado na ilha.",
+    "Governo: teocracia liderada por um Papa.",
+    "Critério de autoridade: domínio da Palavra do Dragão.",
+    "Lanceiros Draconianos: braço militar da Igreja, formado por pessoas com aptidão para a Palavra do Dragão, mas sem domínio perfeito.",
+    "Feito militar: dez Lanceiros Draconianos conseguiram matar um receptáculo recém-desperto.",
+    "Relação com os Reinos de Ferro: tratados em troca de recursos.",
+    "Objetivo: assim como os ferranos, buscam limpar o mundo dos falsos deuses."
+  ],
+  "npcs": [
+    {
+      "name": "Alexan Augustus IV",
+      "role": "Papa",
+      "description": "Atual Papa da Ortodoxia do Deus Dragão. Filho de pescadores, alcançou o mais alto posto da Igreja por possuir controle completo da Palavra do Dragão. Busca, assim como os ferranos, limpar o mundo dos falsos deuses e estabeleceu tratados com os Reinos de Ferro em troca de recursos.",
+      "image": "alexan.jpeg"
+    }
+  ]
+}

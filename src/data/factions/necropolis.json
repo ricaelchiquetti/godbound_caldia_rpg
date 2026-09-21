@@ -1,0 +1,26 @@
+{
+  "id": "necropolis",
+  "name": "Necrópolis",
+  "image": "/assets/img/faccoes/necropolis.jpeg",
+  "description": "Erguida há quase um milênio, Necrópolis nasceu sobre os alicerces de uma antiga prisão. Um colossal monumento em espiral projeta-se aos céus, ocultando uma intrincada rede de câmaras subterrâneas que se enraízam na terra a perder de vista. A estrutura foi construída em uma planície infértil e desolada nos arredores do Ducado de Aetergard.\n\nEm sua origem, o local foi forjado para ser a prisão definitiva de Jessebel Alexyn, receptáculo de Ah Puch. Primogênita de uma extinta linhagem de condes de Aetergard, Jessebel nasceu marcada como receptáculo de uma divindade mortuária. Sua família chegou a acreditar que ela poderia abrigar a essência de Makára, deusa padroeira do repouso e da face serena da morte.\n\nCom o passar dos anos, porém, revelou um fascínio macabro pelos mortos. Ainda jovem, realizava experimentos cruéis com pequenos animais e, posteriormente, com os filhos dos servos de sua família. No dia de suas bodas, revelou sua verdadeira natureza diante do altar, invocando abominações e mortos-vivos para impedir a fuga dos convidados. Cercada pelos mortos, matou o próprio noivo e ergueu os convidados chacinados como os primeiros soldados de sua hoste.\n\nA carnificina espalhou morte e ruína por diversos vilarejos e condados, até que os receptáculos de Ultima e Odin intervieram pessoalmente. Eles conseguiram matar Jessebel, mas ela ressurgiu meses depois. Sem meios de destruí-la definitivamente, os campeões ergueram um colossal zigurate de pedra e selaram-na em suas profundezas.\n\nMil anos depois, o antigo cárcere tornou-se a fundação da amaldiçoada Necrópolis. O súbito despertar de hordas de mortos-vivos levanta uma suspeita sombria: Jessebel Alexyn pode ter rompido seu confinamento.",
+  "details": [
+    "Origem: antiga prisão construída há quase um milênio.",
+    "Localização: planície infértil e desolada nos arredores do Ducado de Aetergard.",
+    "Estrutura: colossal monumento em espiral com extensa rede de câmaras subterrâneas.",
+    "Propósito original: aprisionar Jessebel Alexyn.",
+    "Jessebel Alexyn: receptáculo de Ah Puch.",
+    "Antiga linhagem: Jessebel era primogênita de uma extinta linhagem de condes de Aetergard.",
+    "Makára: a família inicialmente acreditava que Jessebel poderia ser receptáculo de Makára, deusa do repouso e da face serena da morte.",
+    "Primeira derrota: Jessebel foi morta pelos receptáculos de Ultima e Odin.",
+    "Prisão: após retornar da morte, foi selada em um colossal zigurate.",
+    "Estado atual: o despertar de mortos-vivos sugere que seu confinamento pode ter sido rompido."
+  ],
+  "npcs": [
+    {
+      "name": "Jessebel Alexyn",
+      "role": "Receptáculo de Ah Puch",
+      "description": "Primogênita de uma extinta linhagem de condes de Aetergard e receptáculo de Ah Puch. Desde jovem demonstrava fascínio pelos mortos e realizou experimentos cruéis. Durante suas bodas, matou o próprio noivo e os convidados, transformando-os em mortos-vivos. Foi morta pelos receptáculos de Ultima e Odin, mas retornou meses depois e acabou selada em um colossal zigurate. A antiga prisão deu origem à atual Necrópolis, e o recente despertar de hordas de mortos-vivos levanta a possibilidade de que Jessebel tenha escapado.",
+      "image": "jessebel.jpeg"
+    }
+  ]
+}

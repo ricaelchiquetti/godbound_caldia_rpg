@@ -1,0 +1,27 @@
+{
+  "id": "nortenhos",
+  "name": "Nortenhos",
+  "image": "/assets/img/cidades/nortenhos.jpg",
+  "description": "Os Nortenhos figuram entre as grandes potências de Caldia. O material conhecido até o momento, porém, ainda é escasso. Sabe-se que existem conflitos entre os povos do Norte e as regiões do Sul, e que o mestre está desenvolvendo seus vilarejos nas Escalas Frígidas. Entre os nomes já mencionados encontram-se Alvin, o Cai de Pé, e Gorjal, o Sanguinário, líder dos Rói-Montanha. Mais detalhes sobre sua organização, governo, cultura e territórios ainda não foram estabelecidos no material disponível.",
+  "details": [
+    "São uma das grandes potências de Caldia.",
+    "Existem conflitos entre o Norte e as regiões do Sul.",
+    "Seus vilarejos estão sendo desenvolvidos nas Escalas Frígidas.",
+    "Alvin, o Cai de Pé, foi mencionado entre os NPCs dos Nortenhos.",
+    "Gorjal, o Sanguinário, foi mencionado como líder dos Rói-Montanha."
+  ],
+  "npcs": [
+    {
+      "name": "Alvin, o Cai de Pé",
+      "role": "NPC dos Nortenhos",
+      "description": "Um dos personagens mencionados durante o desenvolvimento dos vilarejos dos Nortenhos nas Escalas Frígidas. Nenhuma outra informação foi estabelecida no material disponível.",
+      "image": "alvin.jpeg"
+    },
+    {
+      "name": "Gorjal, o Sanguinário",
+      "role": "Líder dos Rói-Montanha",
+      "description": "Líder dos Rói-Montanha, grupo associado aos Nortenhos. Sua posição e título foram mencionados pelo mestre durante a criação dos vilarejos do Norte.",
+      "image": "gorjal.jpeg"
+    }
+  ]
+}

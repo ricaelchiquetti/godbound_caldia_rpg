@@ -1,0 +1,16 @@
+{
+  "id": "reinos-de-ferro",
+  "name": "Reinos de Ferro",
+  "image": "/assets/img/cidades/reinos_de_ferro.jpg",
+  "description": "Os Reinos de Ferro são governados pela Igreja do Sétimo Dia, cuja doutrina considera os receptáculos uma profanação da ordem natural. A Igreja busca destruir todos eles, mesmo que para isso seja necessário conduzir seu próprio povo à miséria.\n\nA população que não pertence ao exército vive atualmente em condições análogas à escravidão. Os soldados desfrutam de condições de vida melhores, mas pagam por esses privilégios com uma obrigação absoluta: marchar para qualquer guerra santa proclamada pela Igreja.\n\nA influência dos Reinos de Ferro ultrapassa suas fronteiras. A Baía dos Náufragos foi construída entre as ilhas que compõem o reino, enquanto a ilha que hoje abriga a Ortodoxia do Deus Dragão originalmente era um assentamento ferrano antes de se separar após um ataque de Ifrit.",
+  "details": [
+    "Governo: Igreja do Sétimo Dia.",
+    "Doutrina: receptáculos são considerados uma profanação da ordem natural.",
+    "Objetivo religioso: destruir os receptáculos.",
+    "População civil: vive em condições análogas à escravidão.",
+    "Exército: soldados possuem condições melhores, mas são obrigados a participar das guerras santas proclamadas pela Igreja.",
+    "Baía dos Náufragos: porto pirata fortificado situado entre as ilhas dos Reinos de Ferro.",
+    "Ortodoxia do Deus Dragão: surgiu de um antigo assentamento ferrano que se separou após o ataque de Ifrit."
+  ],
+  "npcs": []
+}

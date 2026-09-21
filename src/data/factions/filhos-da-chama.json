@@ -1,0 +1,16 @@
+{
+  "id": "filhos-da-chama",
+  "name": "Filhos da Chama",
+  "image": "/assets/img/faccoes/filhos_da_chama.jpg",
+  "description": "Os Filhos da Chama não possuem líderes fixos, organizações formais ou fortalezas. São grupos de pessoas unidos pela crença de que o mundo chegará ao fim pelas mãos de Ifrit. Em nome dessa crença, marcham, queimam e matam aqueles que não escolhem pensar como eles.\n\nA ameaça representada pelos Filhos da Chama é difícil de eliminar de forma definitiva. Mesmo quando um grupo é destruído, é apenas questão de tempo até que outro surja. Há ainda uma ironia conhecida em sua história: o próprio Ifrit tentou eliminá-los no passado.",
+  "details": [
+    "Não possuem líderes fixos.",
+    "Não possuem organizações formais.",
+    "Não possuem fortalezas.",
+    "Acreditam que o mundo terminará pelas mãos de Ifrit.",
+    "Marcham, queimam e matam aqueles que rejeitam sua crença.",
+    "Mesmo quando um grupo é eliminado, novos grupos voltam a surgir.",
+    "O próprio Ifrit já tentou eliminá-los no passado."
+  ],
+  "npcs": []
+}

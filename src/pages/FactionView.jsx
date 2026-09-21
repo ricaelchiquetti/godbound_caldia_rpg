@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-// Importação do novo arquivo JSON
-import factions from '../data/factions.json';
+import { factions } from '../data/worldData';
 import PageLayout from '../components/PageLayout';
 import NpcCard from '../components/NpcCard';
 

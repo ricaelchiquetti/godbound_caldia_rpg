@@ -1,0 +1,49 @@
+{
+  "id": "sentinelas-do-verde",
+  "name": "Sentinelas do Verde",
+  "image": "/assets/img/faccoes/sentinelas.jpg",
+  "description": "Os Sentinelas do Verde nasceram como um culto dedicado à preservação do mundo natural, frequentemente guiado pelas vontades divinas de Freyja e Titan. À medida que seus devotos se multiplicaram, fincaram as raízes de sua própria nação sob as copas das densas florestas de Caldia. Rejeitando os excessos da civilização, prosperam com as dádivas da própria mata.\n\nEntre o povo dos Sentinelas existe uma tradição segundo a qual aquele que ascende à liderança, seja como sumo sacerdote ou suma sacerdotisa, carrega a centelha divina como receptáculo de um deus. Lendas também falam de uma ligação ancestral com as feras mágicas da região, vínculo que os transforma em predadores letais quando combatem em seu próprio território.\n\nO desaparecimento de Fiaso, o último sumo sacerdote, abriu espaço para uma nova liderança. Uma sacerdotisa recém-chegada ao culto tomou as rédeas da nação e exigiu que todos passassem a chamá-la de Mãe. Para consolidar seu domínio, escolheu doze seguidores para governar o povo, chamando-os de seus Filhos. Esses governantes receberam autoridade absoluta sobre as massas e passaram a agir conforme seus próprios caprichos, limitados principalmente pelo medo de provocar a ira da Mãe.\n\nOs Sentinelas mantêm relações de escambo pacífico com o Povo da Areia e com os Reinos de Ferro, mas nutrem profundo desprezo pelos avanços da República de Arquimedes. Entre os Filhos já conhecidos estão Sanku, Lavin, Lavoisier e Gumes.",
+  "details": [
+    "Origem: culto dedicado à preservação do mundo natural.",
+    "Divindades associadas: Freyja e Titan.",
+    "Território: densas florestas de Caldia.",
+    "Liderança tradicional: o sumo sacerdote ou suma sacerdotisa carrega a centelha divina como receptáculo de um deus.",
+    "Relação com a natureza: vínculo ancestral com feras mágicas da região.",
+    "Relações pacíficas: realizam escambo com o Povo da Areia e com os Reinos de Ferro.",
+    "Relação com Arquimedes: possuem profundo desprezo pelos avanços da República de Arquimedes.",
+    "Liderança atual: uma sacerdotisa conhecida como Mãe governa por meio de doze Filhos.",
+    "Antigo líder: Fiaso, o último sumo sacerdote, desapareceu misteriosamente."
+  ],
+  "npcs": [
+    {
+      "name": "A Mãe",
+      "role": "Líder Suprema",
+      "description": "Sacerdotisa recém-chegada ao culto que assumiu o controle dos Sentinelas do Verde após o desaparecimento de Fiaso. Exigiu que todos os fiéis a chamassem de Mãe e nomeou doze seguidores como seus Filhos, concedendo-lhes autoridade sobre o povo.",
+      "image": "a_mae.jpeg"
+    },
+    {
+      "name": "Sanku",
+      "role": "Primeiro Filho",
+      "description": "Oculta sob sua aparência humana uma ligação primitiva com as feras. Governa um vilarejo isolado de onde nenhum morador pode partir. Existem rumores de que seu olhar é capaz de devorar o livre-arbítrio de uma pessoa, transformando-a em um fantoche obediente.",
+      "image": "sanku.jpeg"
+    },
+    {
+      "name": "Lavin",
+      "role": "Segundo Filho",
+      "description": "Comanda uma hoste de guerreiros que vivem para a luta e saqueiam vilarejos sob a lei de que o mais forte manda.",
+      "image": "lavin.jpeg"
+    },
+    {
+      "name": "Lavoisier",
+      "role": "Terceiro Filho",
+      "description": "Aristocrata que se opôs à cultura local e criou uma fortaleza mercante na base da floresta. Mantém fortes negociações com o Ducado de Aetergard em troca de recursos raros e possui um interesse incompreensível por relíquias do povo de Allag.",
+      "image": "lavoisier.jpeg"
+    },
+    {
+      "name": "Gumes",
+      "role": "Quarto Filho",
+      "description": "Não possui inteligência e, sem o grupo de pessoas que cuida e alimenta dele, seria apenas uma força destrutiva que devora tudo pela frente. Ninguém entende por que a Mãe o escolheu como um de seus Filhos.",
+      "image": "gumes.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "republica-arquimedes",
+  "name": "República de Arquimedes",
+  "image": "/assets/img/cidades/republica_arquimedes.jpg",
+  "description": "Nas montanhas das Espinhas do Mundo, bem ao sul de Caldia, encontra-se a República de Arquimedes, uma nação voltada à tecnologia e à ciência. Seus pesquisadores dedicam-se a desvendar a tecnologia perdida de Allag, uma civilização que, há cerca de dez mil anos, possuía conhecimentos que beiravam o divino.\n\nO governo da República divide-se entre um Conselho de Anciões, cujos membros são eleitos a cada dois anos para representar diferentes áreas, como logística, ciência, metalurgia, ferraria e comércio, e o Grão-Artífice, eleito a cada seis anos e situado acima do conselho.\n\nA República também utiliza suas pesquisas sobre a antiga tecnologia de Allag para produzir armas de guerra. Sua força militar é descrita como escassa, e o desenvolvimento dessas armas serve para compensar essa limitação.",
+  "details": [
+    "Localização: montanhas das Espinhas do Mundo, bem ao sul de Caldia.",
+    "Especialização: tecnologia e ciência.",
+    "Pesquisa: tecnologia perdida de Allag.",
+    "Conselho de Anciões: membros eleitos a cada dois anos, representando diferentes áreas da sociedade.",
+    "Áreas mencionadas: logística, ciência, metalurgia, ferraria e comércio.",
+    "Grão-Artífice: eleito a cada seis anos.",
+    "Direito ao voto: moradores da República há pelo menos dez anos, com idade entre 30 e 60 anos.",
+    "Aplicação militar: produção de armas de guerra para suplementar sua escassa força militar."
+  ],
+  "npcs": []
+}

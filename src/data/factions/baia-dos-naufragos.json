@@ -1,0 +1,24 @@
+{
+  "id": "baia-dos-naufragos",
+  "name": "Baía dos Náufragos",
+  "image": "/assets/img/faccoes/bahia_dos_naufragos.jpg",
+  "description": "A Baía dos Náufragos é um porto pirata fortificado erguido em meio às ilhas que compõem os Reinos de Ferro. Seu poder e governo pertencem à Coorte da Irmandade, um conselho formado por lordes piratas. Seus postos são vitalícios e são passados adiante antes da morte do antecessor, sem que exista herança de sangue.\n\nEntre os nomes mais conhecidos ligados à Baía está Galios Storm, um famoso capitão pirata e receptáculo de Leviathan. Apesar de sua importância e fama, Galios não é um lorde pirata. Ele costuma atacar as fortalezas dos ferranos, mas jamais saqueia vilarejos.",
+  "details": [
+    "Tipo: porto pirata fortificado.",
+    "Localização: entre as ilhas dos Reinos de Ferro.",
+    "Governo: Coorte da Irmandade.",
+    "Coorte da Irmandade: conselho composto por lordes piratas.",
+    "Sucessão: postos vitalícios, passados antes da morte do antecessor e sem herança de sangue.",
+    "Galios Storm: famoso capitão pirata e receptáculo de Leviathan, mas não é um lorde pirata.",
+    "Alvos de Galios: fortalezas dos ferranos.",
+    "Galios não saqueia vilarejos."
+  ],
+  "npcs": [
+    {
+      "name": "Galios Storm",
+      "role": "Capitão pirata e Receptáculo de Leviathan",
+      "description": "Famoso capitão pirata e receptáculo de Leviathan. Não pertence à Coorte da Irmandade como lorde pirata. Costuma atacar as fortalezas dos ferranos, mas jamais saqueia vilarejos.",
+      "image": "galios_storm.jpeg"
+    }
+  ]
+}

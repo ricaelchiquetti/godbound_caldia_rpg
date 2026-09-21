@@ -1,0 +1,17 @@
+{
+  "id": "povo-da-areia",
+  "name": "Povo da Areia",
+  "image": "/assets/img/cidades/povo_da_areia.jpg",
+  "description": "O Povo da Areia não possui cidades ou governos unificados. É formado por diversos grupos de nômades de pele cinza e olhos vermelhos, descendentes do povo de Allag, que viajam pelo mundo sem se envolver em guerras ou diplomacia.\n\nQuando questionados sobre a ruína de Allag, respondem apenas que o mundo está condenado e que isso é culpa deles. Sua relação com o passado permanece marcada por essa afirmação, enquanto seus grupos continuam viajando pelo mundo sem se prender a um território ou governo único.",
+  "details": [
+    "Não possuem cidades ou governo unificado.",
+    "São formados por diversos grupos de nômades.",
+    "Características físicas: pele cinza e olhos vermelhos.",
+    "São descendentes do povo de Allag.",
+    "Viajam pelo mundo.",
+    "Não se envolvem em guerras ou diplomacia.",
+    "Sobre a ruína de Allag, afirmam que o mundo está condenado e que a culpa é deles.",
+    "Mantêm relações de escambo pacífico com os Sentinelas do Verde."
+  ],
+  "npcs": []
+}
