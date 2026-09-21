@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 
-export default function GodCard({ deus }) {
+export default function GodCard({ god }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const data = god
+
+  console.log(data)
 
   return (
     <>
@@ -11,8 +15,8 @@ export default function GodCard({ deus }) {
       >
         <div className="w-full relative overflow-hidden mb-[-30px] bg-transparent z-10">
           <img 
-            src={`${import.meta.env.BASE_URL}/assets/img/panteao/${deus.img}`} 
-            alt={deus.nome} 
+            src={`${import.meta.env.BASE_URL}/assets/img/panteao/${data.image}`}
+            alt={data.name} 
             className="w-full h-125 object-cover object-top transition-transform duration-400 hover:scale-105"
             style={{
               WebkitMaskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 40%, rgba(0,0,0,0) 100%)',
@@ -24,13 +28,13 @@ export default function GodCard({ deus }) {
         <div className="px-5 pb-5 pt-4 flex-1 flex flex-col justify-between relative z-0">
           <div>
             <h3 className="font-serif-title font-bold text-xl text-dd-red mb-1">
-              {deus.nome}
+              {data.name}
             </h3>
             <span className="italic text-dd-red text-sm font-medium block">
-              {deus.dominio}
+              {data.domain}
             </span>
             <p className="mt-3 text-sm text-gray-800 leading-relaxed text-justify">
-              {deus.desc}
+              {data.description}
             </p>
           </div>
         </div>
@@ -54,13 +58,13 @@ export default function GodCard({ deus }) {
             </button>
             
             <h1 className="font-serif-title text-2xl md:text-3xl font-bold text-dd-red mb-4 pr-8">
-              Habilidades de {deus.nome}
+              Habilidades de {data.name} 
             </h1>
             
             <div className="w-full overflow-auto border rounded border-dd-gold/40 shadow-inner bg-white/50 flex-grow">
               <img 
-                src={`${import.meta.env.BASE_URL}/assets/img/panteao/habilidades/${deus.img}`} 
-                alt={`Habilidades de ${deus.nome}`} 
+                src={`${import.meta.env.BASE_URL}/assets/img/panteao/habilidades/${data.image}`} 
+                alt={`Habilidades de ${data.name}`} 
                 className="w-full h-auto block"
               />
             </div>

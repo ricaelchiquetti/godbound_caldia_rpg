@@ -1,0 +1,44 @@
+[
+  {
+    "id": "baia-dos-naufragos",
+    "name": "Baía dos Náufragos",
+    "image": "/assets/img/faccoes/bahia_dos_naufragos.jpg",
+    "description": "Um porto pirata fortificado erguido em meio às ilhas que compõem os Reinos de Ferro. Seu poder e governo pertencem à Coorte da Irmandade, um conselho composto por lordes piratas cujos postos são vitalícios e passados adiante antes da morte do antecessor, não havendo herança de sangue.",
+    "npcs": [
+      {
+        "name": "Galios Storm",
+        "role": "Receptáculo de Leviathan",
+        "description": "O capitão da frota pirata que comanda a Baía dos Náufragos.",
+        "image": "galios_storm.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "caravanas-de-humbabi",
+    "name": "Caravanas de Hum'babi",
+    "image": "/assets/img/faccoes/caravanas_humbabi.jpeg",
+    "description": "Grupo de caravanas itinerantes que opera de forma independente.",
+    "npcs": []
+  },
+  {
+    "id": "filhos-da-chama",
+    "name": "Filhos da Chama",
+    "image": "/assets/img/faccoes/filhos_da_chama.jpg",
+    "description": "Não possuem líderes fixos, organizações formais ou fortalezas. Trata-se de um grupo disperso de fanáticos unidos por uma crença inabalável no fim do mundo pelas mãos de Ifrit, a quem auxiliam marchando, queimando e exterminando todos que recusam sua fé. O maior tormento dessa ameaça é a sua resiliência: por mais que sejam eliminados, é sempre questão de tempo até que um novo grupo se reerga das cinzas — uma ironia cruel, visto que o próprio Ifrit tentou extingui-los no passado.",
+    "npcs": []
+  },
+  {
+    "id": "necropolis",
+    "name": "Necrópolis",
+    "image": "/assets/img/faccoes/necropolis.jpeg",
+    "description": "Erguido há quase um milênio, um colossal monumento em espiral projeta-se aos céus, ocultando uma intrincada rede de câmaras subterrâneas que se enraízam na terra a perder de vista. Os alicerces desta antiga prisão jazem em uma planície infértil e desolada, nos arredores do Ducado de Aetergard. \n\n Em sua origem, o local foi forjado como o cárcere definitivo para o receptáculo de Ah Puch — mas o súbito despertar de hordas de mortos-vivos levanta uma suspeita sombria: Jessebel Alexyn rompeu seu confinamento, transformando a antiga estrutura na amaldiçoada Necrópolis.",
+    "npcs": [
+      {
+        "name": "Jessebel Alexyn",
+        "role": "Receptáculo de Ah Puch",
+        "description": "Primogênita de uma extinta linhagem de condes de Aetergard, Jessebel revelou uma natureza sádica na juventude ao realizar experimentos macabros com mortos. Em seu dia de bodas, assassinou o próprio noivo e convidados, erguendo-os como uma hoste de mortos-vivos até ser executada pelos campeões de Ultima e Odin. Ressurgindo meses depois e impossível de ser destruída, foi selada em um colossal zigurate milenar — cárcere que recentemente rompeu para aterrorizar o mundo novamente.",
+        "image": "jessebel.jpeg"
+      }
+    ]
+  }
+]

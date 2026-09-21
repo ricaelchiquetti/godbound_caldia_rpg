@@ -1,5 +1,5 @@
 import React from 'react';
-import { deusesIniciais } from '../data/worldData';
+import { gods } from '../data/worldData';
 import PageLayout from '../components/PageLayout';
 import GodCard from '../components/GodCard';
 
@@ -12,8 +12,8 @@ export default function Pantheon() {
       
       {/* Grid responsivo adaptado para Mobile First */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-        {deusesIniciais.map((deus, idx) => (
-          <GodCard key={idx} deus={deus} />
+        {gods.map((god, idx) => (
+          <GodCard key={idx} god={god} />
         ))}
       </div>
     </PageLayout>
