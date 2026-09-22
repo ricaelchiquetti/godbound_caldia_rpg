@@ -17,56 +17,70 @@ export default function Navbar({ activePage, setActivePage }) {
   };
 
   return (
-    <header className="bg-dd-red border-b-2 border-dd-gold sticky top-0 z-50 shadow-md">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    <header className="bg-dd-red border-b-2 border-dd-gold sticky top-0 z-50 shadow-lg">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-2 flex items-center justify-between">
         
-        <span className="font-serif-title text-parchment text-xl tracking-wider">
+        {/* Logo / Título do Livro Clicável */}
+        <button 
+          onClick={() => handleSelect('intro')}
+          className="flex items-center gap-2 font-serif text-parchment text-lg md:text-xl font-bold tracking-wider hover:text-dd-gold transition-colors cursor-pointer"
+        >
+          <span className="text-dd-gold text-xs">✦</span>
+          <span className="font-serif-title text-parchment text-xl tracking-wider">
           Compêndio RPG
-        </span>
+          </span>
+        </button>
 
         {/* Botão Mobile */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden p-2 text-parchment border border-dd-gold rounded hover:bg-dd-gold/20 transition-colors"
+          aria-label="Menu"
+          className="md:hidden p-2 text-parchment border border-dd-gold/60 rounded-sm hover:bg-dd-gold/20 transition-colors cursor-pointer"
         >
-          <span className="text-xl">{isOpen ? '✕' : '☰'}</span>
+          <span className="text-lg leading-none block">{isOpen ? '✕' : '☰'}</span>
         </button>
 
-        {/* Menu Desktop */}
-        <nav className="hidden md:flex items-center gap-2">
-          {navItems.map((item) => (
-            <button
-              key={item.id}
-              onClick={() => setActivePage(item.id)}
-              className={`px-4 py-2 border font-serif text-sm transition-all ${
-                activePage === item.id
-                  ? 'bg-dd-gold text-dd-red border-dd-gold font-bold shadow-inner'
-                  : 'bg-transparent text-parchment border-dd-gold/60 hover:bg-dd-gold hover:text-dd-red'
-              }`}
-            >
-              {item.label}
-            </button>
-          ))}
+        {/* Menu Desktop — Estilo Abas / Editorial */}
+        <nav className="hidden md:flex items-center gap-1 lg:gap-3">
+          {navItems.map((item) => {
+            const isActive = activePage === item.id;
+            return (
+              <button
+                key={item.id}
+                onClick={() => handleSelect(item.id)}
+                className={`font-serif text-xs lg:text-sm tracking-widest uppercase transition-all py-2 px-3 lg:px-4 border-b-2 cursor-pointer ${
+                  isActive
+                    ? 'text-dd-gold border-dd-gold font-bold bg-black/15'
+                    : 'text-parchment/80 border-transparent hover:text-dd-gold hover:border-dd-gold/50 hover:bg-black/10'
+                }`}
+              >
+                {item.label}
+              </button>
+            );
+          })}
         </nav>
       </div>
 
       {/* Menu Mobile Expandido */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-dd-red border-b-2 border-dd-gold shadow-lg py-3 px-4 flex flex-col gap-2">
-          {navItems.map((item) => (
-            <button
-              key={item.id}
-              onClick={() => handleSelect(item.id)}
-              className={`text-left px-3 py-2.5 font-serif text-sm border transition-all ${
-                activePage === item.id
-                  ? 'bg-dd-gold text-dd-red border-dd-gold font-bold'
-                  : 'bg-transparent text-parchment border-dd-gold/40'
-              }`}
-            >
-              {item.label}
-            </button>
-          ))}
-        </div>
+        <nav className="md:hidden bg-dd-red border-t border-dd-gold/30 border-b-2 border-dd-gold shadow-2xl py-2 px-4 flex flex-col gap-1">
+          {navItems.map((item) => {
+            const isActive = activePage === item.id;
+            return (
+              <button
+                key={item.id}
+                onClick={() => handleSelect(item.id)}
+                className={`text-left px-4 py-2.5 font-serif text-xs tracking-widest uppercase transition-all border-l-2 cursor-pointer ${
+                  isActive
+                    ? 'bg-dd-gold/20 text-dd-gold border-dd-gold font-bold'
+                    : 'bg-transparent text-parchment/80 border-transparent hover:bg-black/10 hover:text-dd-gold'
+                }`}
+              >
+                {item.label}
+              </button>
+            );
+          })}
+        </nav>
       )}
     </header>
   );
