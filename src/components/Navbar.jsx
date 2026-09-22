@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 const navItems = [
   { id: 'intro', label: 'O Compêndio' },
-  { id: 'cities', label: 'Nações e Cidades' },
-  { id: 'factions', label: 'Facções' },
+  { id: 'cities', label: 'Nações e Territórios' },
+  { id: 'factions', label: 'Facções e Organizações' },
   { id: 'pantheon', label: 'O Panteão' },
   { id: 'rules', label: 'Livro do Jogador' }
 ];
