@@ -1,0 +1,33 @@
+# Facções, Nações e Organizações
+
+Sendo os heróis Godbound o que são, é muito provável que pelo menos alguns dos PJ num grupo se tornem patronos ou governantes de nações, cultos, organizações, cidades ou outros grandes grupos de pessoas. Também é provável que os feitos heróicos em geral que realizam ou as instâncias aleatórias de caos possam ter efeitos substanciais numa comunidade ou grupo. Embora muitos MJ e jogadores fiquem perfeitamente satisfeitos em narrar essas mudanças numa base puramente ad-hoc, outros apreciam uma forma mais estruturada de gerir nações e colocar grandes grupos em conflito uns com os outros.
+
+Esta secção destina-se a fornecer essas regras, além de ajudar um MJ a adicionar alguma vida a um cenário de campanha. Os conflitos e disputas de grandes grupos podem continuar mesmo quando os PJ não estão envolvidos, adicionando assim um grau extra de vitalidade a um mundo e gerando situações que podem interessar e envolver os PJ. Não é necessário fazer uma facção formal de cada nação ou grupo no cenário de campanha, mas mecanizar algumas das mais importantes pode dar a um MJ alguma atividade em segundo plano para envolver os jogadores e adicionar verossimilhança ao cenário.
+
+## Partes de uma Facção
+
+Uma facção é qualquer grupo ou comunidade que se pretenda ser um ator importante na tua campanha. As facções podem ser nações, religiões, comunidades, cabalas secretas, movimentos rebeldes ou qualquer outra organização substancial de PNJ. Estas regras de facção são melhor usadas apenas com os grupos ativos e importantes na tua campanha; nem todas as nações devem ter estatísticas como uma facção, nem todas as conspirações sinistras. Apenas aquelas que parecem mais interessantes ou relevantes para a campanha merecem o esforço extra de serem redigidas.
+
+As facções têm Poder, representando o seu tamanho e escopo. O Poder é classificado de 1 a 5 conforme a tabela abaixo. O Poder de uma facção concede-lhe um dado de ação particular que ela rola quando tenta realizar algo ou superar dificuldades. O Poder de uma facção só muda quando o MJ decide que é um resultado racional dos seus esforços e reveses. Isso pode nunca acontecer durante o curso de uma campanha normal, embora o envolvimento dos PJ possa impulsionar ou degradar uma facção rapidamente.
+
+| Poder | Tamanho | Dado de Ação |
+| :---: | :--- | :---: |
+| **1** | Aldeia, bairro, guilda, cabala | 1d6 |
+| **2** | Cidade, fé regional, grande instituição | 1d8 |
+| **3** | Província, região, fé disseminada | 1d10 |
+| **4** | Nação, fé em todo o reino | 1d12 |
+| **5** | Império que governa um reino inteiro | 1d20 |
+
+As facções têm Coesão igual ao seu Poder. A Coesão mede a resiliência, a unidade e a durabilidade da identidade da facção. Se a ação inimiga reduzir a Coesão de uma facção a zero, o grupo desmorona-se sob a pressão dos acontecimentos. As nações podem fragmentar-se em províncias em guerra ou sucumbir a um poder invasor, enquanto as aldeias podem ser abandonadas à medida que os habitantes locais sobreviventes fogem para lugares melhores.
+
+As facções têm Aspectos (Features), que usam para realizar coisas e resistir a ações hostis. Um Aspecto é algo que consiste numa qualidade útil ou resiliente sobre os membros ou sobre os seus recursos disponíveis, geralmente expressa numa única frase. "A aldeia tem uma escola de treino marcial muito respeitada com muitos alunos capazes." é um Aspecto, por exemplo, tal como "Os cidadãos orgulham-se ferozmente da independência da sua cidade e valorizam essa liberdade acima do seu próprio interesse pessoal." Os Aspectos representam aquelas coisas que podem ser usadas pela Facção para alcançar objetivos ou resistir à influência externa.
+
+É possível que Aspectos excecionalmente importantes sejam compostos por várias partes, tais como "O Império Pátrio tem magníficas tropas de infantaria pesada. São piamente leais à vontade do Imperador. O seu moral é soberbo e estão convencidos de que nenhuma força no reino os pode deter." Esse Aspecto é na verdade composto por três partes de frases diferentes, e um inimigo que quisesse degradá-lo teria de corromper ou destruir todas as três partes para o tornar completamente inútil.
+
+As facções têm Problemas, que são o oposto dos Aspectos. São aflições ou dificuldades que tornam mais difícil realizar algo útil ou resistir à pressão externa. Os Problemas são geralmente expressos numa frase ou duas e têm um valor em pontos associado para descrever a gravidade do problema. "Os escravos do Império Pátrio estão inquietos e propensos à rebelião nas províncias rurais." pode ser um Problema de 2 pontos, enquanto "Os nós de energia etérica da República Brilhante estão a falhar sem possibilidade de reparação." pode ser uma calamidade de 4 pontos. A maioria dos problemas vale apenas 1 ou 2 pontos.
+
+A soma dos Problemas de uma facção é a sua pontuação de Tensão (Trouble). Se a pontuação de Tensão alguma vez igualar o resultado máximo do dado de ação da facção, a facção entrará em colapso devido aos seus múltiplos problemas. Assim, se uma aldeia acumular 6 pontos de Problemas, um deles vai provar ser demais para os habitantes locais. Da mesma forma, se uma grande nação acumular 12 pontos de calamidades, vai desmoronar-se.
+
+As facções também têm Interesse noutras facções. O Interesse representa a capacidade da facção de interferir ou ajudar nas atividades de outra facção, e pode envolver o trabalho de espiões, intensa influência cultural, laços mercantis explícitos, organizações benevolentes de ajuda externa ou casamentos de estado entre famílias importantes. Nem sempre é negativo permitir que outra facção construa Interesse numa organização; se forem aliados de confiança, podem usar os seus laços para ajudar a facção tão facilmente quanto para a prejudicar. Uma facção não pode ter mais pontos de Interesse em qualquer rival individual do que o dobro do resultado máximo do seu próprio dado de ação, pois há um limite para a pressão que uma pequena facção pode exercer sobre os seus vizinhos maiores.
+
+Por último, as facções têm pontos de Domínio (Dominion), tal como os heróis Godbound, e podem usá-los para realizar mudanças da mesma forma que os PJ. No entanto, ao contrário dos avatares divinos dos princípios celestiais, as facções não podem realizar mudanças Impossíveis com o seu Domínio. Têm de restringir-se a mudanças Plausíveis e Improváveis. Se quiserem realizar algo realmente fora do comum, precisam de preparar a situação construindo mudanças Plausíveis e Improváveis suficientes previamente para finalmente tornar esse feito Impossível num resultado mais plausível.

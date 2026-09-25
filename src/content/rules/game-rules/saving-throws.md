@@ -6,7 +6,9 @@ Um herói conseguirá repelir o veneno que neste exato momento corrói seu cora�
 
 Para rolar um teste de resistência, o herói deve rolar 1d20 e compará-lo ao seu tipo de teste de resistência mais relevante. Se a rolagem for igual ou superior à pontuação de resistência, é um sucesso. Uma rolagem natural de 1 é sempre uma falha, e uma rolagem natural de 20 sempre sucede.
 
-Robustez (Hardiness) é usada para testes de resistência física e integridade corporal, modificada pelo melhor entre Constituição ou Força. Evasão (Evasion) é para agilidade e resposta rápida, modificada pelo melhor entre Destreza ou Inteligência. Espírito (Spirit) trata de ameaças mágicas ou mentais, modificada pelo melhor entre Carisma ou Sabedoria. Em caso de dúvida, o GM escolhe o tipo.
+##### **Robustez (Hardiness):** é usada para testes de resistência física e integridade corporal, modificada pelo melhor entre Constituição ou Força. 
+##### **Evasão (Evasion)** é para agilidade e resposta rápida, modificada pelo melhor entre Destreza ou Inteligência. 
+##### **Espírito (Spirit)** trata de ameaças mágicas ou mentais, modificada pelo melhor entre Carisma ou Sabedoria. Em caso de dúvida, o GM escolhe o tipo.
 
 Os PCs possuem um teste de resistência base de 16 menos o seu nível de personagem, menos o maior modificador de atributo aplicável. Monstros e NPCs também podem tentar testes de resistência (geralmente calculados como 15 menos metade dos dados de vida da criatura).
 

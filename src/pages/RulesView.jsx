@@ -7,6 +7,9 @@ import DivinePowerView from '../components/DivinePowerView';
 import WordsCreationView from '../components/WordsCreationView';
 import MagicSpellcastingView from '../components/MagicSpellcastingView';
 import TheurgyInvocationsView from '../components/TheurgyInvocationsView';
+import ChangingWorldView from '../components/ChangingWorldView';
+import CultsView from '../components/CultsView';
+import FactionsView from '../components/FactionsView';
 import FavoritesView from '../components/FavoritesView';
 import { FavoritesProvider, useFavorites } from '../context/FavoritesContext';
 
@@ -21,6 +24,9 @@ function RulesContent() {
     { id: 'words-creation', name: 'As Palavras da Criação', Component: WordsCreationView },
     { id: 'magic-spellcasting', name: 'Magia e Conjuração', Component: MagicSpellcastingView },
     { id: 'theurgy-invocations', name: 'Teurgia e Invocações', Component: TheurgyInvocationsView },
+    { id: 'changing-world', name: 'Mudar o Mundo', Component: ChangingWorldView },
+    { id: 'cults', name: 'Cultos de Godbound', Component: CultsView },
+    { id: 'factions', name: 'Facções, Nações e Organizações', Component: FactionsView },
     { id: 'favorites', name: `★ Dádivas Favoritos (${favorites.length})`, Component: (props) => <FavoritesView {...props} setActiveTabId={setActiveTabId} /> },
   ];
 

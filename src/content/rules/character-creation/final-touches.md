@@ -9,6 +9,10 @@ Medida de sua resistência e determinação. Iguais a 8 mais o seu modificador d
 
 ### Classe de Armadura (AC)
 Medida de quão difícil é ferir o herói (quanto menor, melhor). Base 9, modificada por Destreza, Dádivas e Armaduras. Lembre-se de aplicar penalidades de testes de resistência se usar armaduras médias ou pesadas.
+#### Exemplos Práticos
+##### **Personagem Ágil:** Veste uma armadura leve (AC 7) e possui um modificador de Destreza de +2. *Cálculo: 7 - 2 = AC 5.*
+##### **Personagem com Escudo e Armadura:** Veste armadura média (AC 5), empunha um escudo (-1) e tem um modificador de Destreza de +1. *Cálculo: 5 - 1 - 1 = AC 3.*
+##### **Personagem Lento:** Não veste nenhuma armadura (AC 9) e possui um modificador de Destreza de -2. A matemática ditaria 9 - (-2) = 11, **mas devido à regra de limite máximo, o resultado permanece AC 9**
 
 ### Esforço Máximo (Effort)
 Capacidade de invocar dádivas e milagres. Você começa com um máximo de 2 pontos, mais bônus de certas dádivas. Pode ser 'cometido' para manter efeitos ativos.
