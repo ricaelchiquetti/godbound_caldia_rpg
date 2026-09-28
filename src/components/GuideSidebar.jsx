@@ -13,7 +13,7 @@ export default function GuideSidebar({ sections, title = "Navegação do Guia" }
 
   return (
     <>
-      <div className="md:hidden sticky top-4 z-20 mb-4">
+      <div className="md:hidden sticky top-16 z-40 mb-4">
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="w-full flex items-center justify-between px-4 py-2.5 bg-white border border-[var(--dd-gold)] shadow-sm rounded text-[#554215] font-bold text-sm"
@@ -24,14 +24,14 @@ export default function GuideSidebar({ sections, title = "Navegação do Guia" }
       </div>
 
       {isOpen && (
-        <div 
-          className="fixed inset-0 bg-black/50 z-30 md:hidden"
+        <div
+          className="fixed inset-0 bg-black/50 z-40 md:hidden"
           onClick={() => setIsOpen(false)}
         />
       )}
 
       <aside className={`
-        fixed inset-y-0 left-0 z-40 w-72 bg-white p-4 shadow-xl transform transition-transform duration-300 ease-in-out
+        fixed inset-y-0 left-0 z-50 w-72 bg-white p-4 shadow-xl transform transition-transform duration-300 ease-in-out
         md:static md:w-64 md:shrink-0 md:transform-none md:shadow-sm md:p-0 md:bg-transparent
         ${isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}
       `}>
