@@ -10,6 +10,7 @@ import TheurgyInvocationsView from '../components/TheurgyInvocationsView';
 import ChangingWorldView from '../components/ChangingWorldView';
 import CultsView from '../components/CultsView';
 import FactionsView from '../components/FactionsView';
+import DominionCultsView from '../components/DominionCultsView';
 import FavoritesView from '../components/FavoritesView';
 import { FavoritesProvider, useFavorites } from '../context/FavoritesContext';
 
@@ -27,6 +28,7 @@ function RulesContent() {
     { id: 'changing-world', name: 'Mudar o Mundo', Component: ChangingWorldView },
     { id: 'cults', name: 'Cultos de Godbound', Component: CultsView },
     { id: 'factions', name: 'Facções, Nações e Organizações', Component: FactionsView },
+    { id: 'dominion-cults', name: 'Compêndio de Domínios e Cultos', Component: DominionCultsView },
     { id: 'favorites', name: `★ Dádivas Favoritos (${favorites.length})`, Component: (props) => <FavoritesView {...props} setActiveTabId={setActiveTabId} /> },
   ];
 

@@ -1,0 +1,314 @@
+============================================================
+DEUSES
+============================================================
+
+- Allag (O Primeiro) (Domínio: Conhecimento, Artifício)
+  A civilização perdida que beirava a divindade.
+
+- Leviathan (Domínio: Mar, Submundo)
+  A serpente primordial que habita as profundezas insondáveis dos mares.
+
+- Hefesto (Domínio: Fogo, Artifício)
+  O mestre artesão divino, moldando metais e engrenagens com chamas eternas.
+
+- Epófis (Domínio: Entropia, Noite)
+  A serpente do submundo que busca eternamente devorar a luz do sol.
+
+- Fenix (Domínio: Fogo, Pássaros)
+  A ave imortal que consome a si mesma para renascer mais forte a cada ciclo.
+
+- Ah Puch (Domínio: Morte, Submundo)
+  O senhor dos nove infernos e guardião dos espíritos que partiram.
+
+- Shiva (Domínio: Dança, Entropia)
+  A dança cósmica que encerra eras para dar início a novos universos.
+
+- Loki (Domínio: Feitiçaria, Ilusão)
+  O trapaceiro imprevisível cujas maquinações moldam o destino dos mundos.
+
+- Titan (Domínio: Terra, Resistência)
+  Os gigantes que sustentam o peso dos céus e a base da terra.
+
+- Shub-Niggurath (Domínio: Fertilidade, Feras)
+  A cabra negra dos bosques de mil filhotes, fonte de vida incompreensível.
+
+- Ramuh (Domínio: Céu, Comando)
+  O sábio ancião que comanda as tempestades e os relâmpagos dos céus.
+
+- Éris (Domínio: Entropia, Loucura)
+  A força caótica que instiga a rivalidade e desfaz alianças frágeis.
+
+- Ifrit (Domínio: Fogo, Deserto)
+  O espírito elemental do fogo ardente nascido das areias escaldantes.
+
+- Makária (Domínio: Morte, Noite)
+  A personificação do descanso eterno e da passagem pacífica.
+
+- Odin (Domínio: Comando, Desejo)
+  O Pai de Todos que busca o conhecimento supremo através de sacrifícios.
+
+- Garuda (Domínio: Céu, Pássaros)
+  O senhor alado dos ventos solares e protetor contra as serpentes do mal.
+
+- Jormungand (Domínio: Terra, Mar)
+  A colossal serpente marinha que abraça os oceanos e cerca o globo.
+
+- Ultima (Domínio: Feitiçaria, Tempo)
+  A essência arcana definitiva que transcende as leis mortais.
+
+- Freyja (Domínio: Paixão, Guerra)
+  A deusa que conduz as valquírias e governa as paixões mais intensas.
+
+============================================================
+CIDADES E REINOS
+============================================================
+
+### Ducado de Aetergard
+Forjado a partir da união militar e diplomática de pequenos reinos outrora devastados por guerras feudais, o Ducado de Aetergard ergueu-se como um grande bastião de civilização do continente, servindo de escudo contra as incursões bárbaras vindas do Norte. Agraciado por uma geografia próspera de pomares férteis, rios navegáveis e abundância de caça, o território atingiu um nível invejável de autossubsistência.
+
+Detalhes:
+  - O Conselho dos Duques reúne os patriarcas das cinco linhagens nobres mais influentes da região.
+  - No topo da hierarquia social e política estão os receptáculos de Odin, Ultima e Ramuh. Como essas encarnações unificaram Aetergard no passado, todo novo receptáculo dessas divindades possui o direito soberano de assumir a coroa e governar o Ducado, caso manifeste essa vontade.
+  - A sucessão dos feudos e a chefia das casas nobres seguem a primogenitura varonil estrita. Na ausência de filho homem, o governo passa ao marido da filha primogênita até que a união gere um filho homem que atinja a maioridade.
+  - As cinco grandes casas nobres são Aeterian, Boucher, Solistes, Justacorin e Varonil.
+
+NPCs:
+  - Lorde Magnus Aeterian — Patriarca da Casa Aeterian
+    Patriarca de 90 anos, quase cego. Presenciou sua neta Abigail tornar-se receptáculo de Ultima e trava uma disputa política no Conselho para reformar a lei sucessória e permitir que sua filha primogênita herde diretamente a casa.
+  - Lorde Gordin Boucher — Patriarca da Casa Boucher
+    Nobre fanfarrão e decadente, ligado a uma linhagem de origem mercenária. A casa é marcada por intrigas sucessórias, assassinatos velados e pelo uso de vilarejos como fonte de tropas para o exército ducal.
+  - Lorde Altivius Solistes — Patriarca da Casa Solistes
+    Lorde de 30 anos, viúvo há seis anos. Recusa-se a casar novamente e dedica sua vida à educação de Ferrum. Ao lado do filho, estabeleceu o acordo que permite aos Solistes usar engenhos agrícolas de Arquimedes em troca de víveres.
+  - Ferrum Solistes — Herdeiro da Casa Solistes
+    Filho de Altivius, de 16 anos, considerado o maior orgulho e promessa da Casa Solistes. Possui sangue ferrano por parte de mãe, uma nobre das Ilhas Ferranas que Altivius conheceu depois de ser capturado durante uma incursão.
+  - Lorde Dian Justacorin — Patriarca da Casa Justacorin
+    Lorde de cerca de 20 anos, assumiu a casa após a morte do pai. Foi criado em severa reclusão e educado por tutores particulares. Recusa propostas matrimoniais, aguardando alguém que considere de honra e nobreza excepcionais.
+  - Lorde Cassian Varonil — Patriarca da Casa Varonil
+    Senhor austero e calculista. A Casa Varonil busca concentrar o poder do Ducado sob seu controle. Cassian acompanha as fraquezas dos demais patriarcas e prepara-se para tomar o poder supremo quando surgir a oportunidade.
+  - Abigail — Receptáculo de Ultima
+    Neta de Magnus Aeterian e receptáculo da deusa Ultima.
+
+
+### Marunath
+Cidade-trincheira do Alto Jarl, erguida sobre terraços de rocha e estruturas de madeira naval na boca do maior fiorde do Norte. Serve como escudo contra invasões e como centro de comércio entre os clãs das Escarpas Frígidas.
+
+Detalhes:
+  - Marunath foi fundada por Ringol, receptáculo de Leviathan, e Nataly/Talyn, receptáculo de Shiva.
+  - Leviathan e Shiva amaldiçoaram a primeira filha do casal por se recusarem a guerrear. A criança nasceu como uma criatura grotesca conhecida como Kraken do Norte.
+  - Durante uma invasão de Aetergard, Ringol e Nataly foram enfraquecidos pelos próprios deuses, mortos nos salões da cidade, e a criatura foi lançada das escarpas ao mar.
+  - A tradição do Norte afirma que a criatura sobreviveu e se tornou a legítima Senhora do Abismo.
+  - O Círculo de Marunath permite que qualquer guerreiro desafie o Alto Jarl. O desafiante golpeia o Escudo de Ferro e deve aguardar três luas para que testemunhas cheguem.
+  - Pisar fora do círculo durante o duelo é covardia e resulta em banimento. Venenos ou interferência externa resultam em execução.
+
+NPCs:
+  - Ringol — Antigo fundador de Marunath e receptáculo de Leviathan
+    Receptáculo de Leviathan que fundou Marunath ao lado de Nataly/Talyn. Foi morto durante a invasão de Aetergard.
+  - Nataly / Talyn — Antiga fundadora de Marunath e receptáculo de Shiva
+    Receptáculo de Shiva que fundou Marunath ao lado de Ringol. A grafia do nome aparece como Nataly e Talyn no compêndio.
+  - Kraken do Norte — Herdeira lendária do Norte
+    Filha de Ringol e Nataly/Talyn, nascida como uma criatura de tentáculos, escamas gélidas e garras abissais. Segundo a lenda, sobreviveu à queda nas fossas oceânicas e é a legítima soberana do Norte.
+
+
+### Nortenhos
+As Escarpas Frígidas ocupam as bordas extremas do continente, onde ventos congelantes encontram o mar e paredões de rocha basáltica e gelo. A região é habitada por clãs independentes que sobrevivem da caça a feras gélidas, da pesca costeira e de um rígido código de honra marcial.
+
+Detalhes:
+  - Marunath é a única grande metrópole do Norte e a sede do Alto Jarl.
+  - As vilas e fortalezas locais possuem grande autonomia e são governadas por anciãos, chefes ou conselhos de caça.
+  - A lealdade ao Alto Jarl depende principalmente de prestígio marcial e pactos de ajuda mútua.
+  - Qualquer guerreiro nascido nas Escarpas Frígidas pode reivindicar o título de Alto Jarl por meio do ritual do Escudo de Ferro e do duelo na Arena Sagrada.
+  - Jarl Thorsen é o atual governante do Norte.
+  - O Norte mantém uma relação de hostilidade com o Ducado de Aetergard, embora Marunath também funcione como centro de comércio entre os clãs.
+
+NPCs:
+  - Jarl Thorsen — Alto Jarl do Norte
+    Atual governante de Marunath. Mantém seu título porque nenhum desafiante conseguiu derrotá-lo no Círculo de Marunath.
+  - Gorjal, o Sanguinário — Líder do Clã do Rói-Montanha
+    Filho de Ig e senhor do Clã do Rói-Montanha. Mantém um pacto de tolerância com Thorsen e conduz ataques contra o Ducado através da Garganta de Okum.
+  - Alvin, o Cai de Pé — Líder do Clã Stuart
+    Líder de Vendaval, neto da antiga receptáculo de Garuda que guiou os colonos fundadores. Governa com paciência, sabedoria e acolhimento.
+
+
+### Ortodoxia do Deus Dragão
+Nação insular formada por antigos assentamentos ferranos, conhecida por suas reservas de ferro, cavernas submersas, pelo minério divino chamado Oricalco e pela devoção à voz de um dragão.
+
+Detalhes:
+  - Após um ataque de Ifrit, sobreviventes encontraram um crânio colossal preso a uma jazida de ferro e ouviram a voz do dragão.
+  - O ferro encontrado nessa jazida possui propriedades divinas e foi nomeado Oricalco.
+  - A nação é governada por um Papa eleito pela maestria na Palavra do Dragão.
+  - Os Lanceiros Draconianos são treinados desde pequenos quando demonstram aptidão para a Palavra do Dragão sem domínio perfeito.
+  - Dez Lanceiros Draconianos conseguiram matar um receptáculo recém-desperto.
+  - A Ortodoxia busca, assim como os Ferranos, limpar o mundo dos falsos deuses.
+  - A nação mantém tratados com os Ferranos em troca de recursos.
+
+NPCs:
+  - Alexan Augustus IV — Papa da Ortodoxia do Deus Dragão
+    Atual Papa, com domínio completo da Palavra do Dragão. Filho de pescadores, busca erradicar os falsos deuses e mantém tratados com os Ferranos.
+
+
+### Povo da Areia
+Conjunto de grupos nômades que percorrem as terras e desertos de Caldia sem cidades, governo centralizado ou fronteiras delimitadas.
+
+Detalhes:
+  - Possuem pele acinzentada e olhos vermelhos.
+  - São apresentados no compêndio como os últimos descendentes de sangue puro da civilização de Allag.
+  - Mantêm neutralidade diante de guerras, disputas territoriais e tratados diplomáticos.
+  - Quando questionados sobre a ruína de Allag, afirmam que o mundo está condenado e que a culpa é deles.
+
+
+### Reinos de Ferro
+Os Reinos de Ferro são governados pela Igreja do Sétimo Dia, cuja doutrina considera os receptáculos uma profanação da ordem natural. A igreja busca destruir todos os receptáculos, mesmo ao custo da miséria de sua própria população.
+
+Detalhes:
+  - A população civil vive em condições análogas à escravidão.
+  - Soldados possuem condições melhores de vida, mas são obrigados a marchar em qualquer guerra santa proclamada pela Igreja do Sétimo Dia.
+  - Os Ferranos são diretamente relacionados à origem de Ferrum Solistes e à formação da Ortodoxia do Deus Dragão.
+
+
+### República de Arquimedes
+Nação instalada na cordilheira das Espinhas do Mundo, no extremo sul de Caldia, dedicada à evolução científica, pesquisa, metalurgia e recuperação da tecnologia perdida de Allag.
+
+Detalhes:
+  - O governo é dividido entre o Conselho dos Anciões e o Grão Artífice.
+  - O Conselho dos Anciões é eleito a cada dois anos e possui representantes de áreas como logística, ciência, metalurgia, ferraria e comércio.
+  - O Grão Artífice é eleito a cada seis anos.
+  - Pode votar quem mora na República há pelo menos dez anos e tem entre 30 e 60 anos.
+  - Pesquisadores exploram tecnologia perdida de Allag para produzir armas de guerra e maquinários industriais.
+  - A República possui uma força militar considerada escassa e usa a tecnologia para suplementá-la.
+  - A Casa Solistes de Aetergard fornece víveres à República em troca do uso de engenhos mecânicos e arados tecnológicos.
+  - As Sentinelas do Verde nutrem profundo desprezo pelos avanços tecnológicos da República.
+
+NPCs:
+  - Grão Artífice — Chefe de Estado da República de Arquimedes
+    Título do governante eleito a cada seis anos. O compêndio não informa o nome do atual ocupante.
+
+
+### Sentinelas do Verde
+Culto dedicado à preservação do mundo natural, guiado pelas vontades divinas de Freyja e Titan. Seus devotos fundaram uma nação sob as florestas de Caldia e rejeitam os excessos da civilização.
+
+Detalhes:
+  - Os líderes tradicionais do culto são receptáculos de um deus.
+  - Após o desaparecimento de Fiaso, uma sacerdotisa recém-chegada tomou o controle e passou a exigir o tratamento de 'Mãe'.
+  - A Mãe escolheu doze seguidores como seus Filhos, concedendo-lhes autoridade absoluta.
+  - Existe uma ligação ancestral entre o povo e as feras mágicas das florestas.
+  - Mantêm escambo pacífico com o Povo da Areia e com os Reinos de Ferro.
+  - Nutrem profundo desprezo pelos avanços tecnológicos da República de Arquimedes.
+  - A ordem dos Filhos de Lavin e Lavoisier é ambígua no texto-fonte, que os descreve como segundo/terceiro filho.
+
+NPCs:
+  - A Mãe — Líder das Sentinelas do Verde
+    Sacerdotisa que assumiu o controle após o desaparecimento de Fiaso. Exige ser chamada de Mãe e governa por meio de doze Filhos.
+  - Sanku — Primeiro Filho
+    Possui instintos animalescos e governa um vilarejo de onde ninguém pode sair. Há rumores de que seu olhar destrói o livre-arbítrio.
+  - Lavin — Segundo/Terceiro Filho
+    Comanda uma hoste de guerreiros e saqueadores sob a lei de que o mais forte manda.
+  - Lavoisier — Segundo/Terceiro Filho
+    Aristocrata que criou uma fortaleza comercial na base da floresta. Mantém negociações com Aetergard e é fascinado por relíquias de Allag.
+  - Gumes — Quarto Filho
+    Não possui inteligência consciente e seria uma força destrutiva sem seus cuidadores, que o alimentam e mantêm sob controle.
+
+
+### Vendaval
+Vilarejo erguido entre copas de pinheiros e pontes suspensas de corda nas florestas gélidas do interior das Escarpas Frígidas. É o lar do Clã Stuart, um povo que coloca a liberdade individual acima de tudo.
+
+Detalhes:
+  - O Clã Stuart venera Garuda como expressão do céu indomável.
+  - É proibido usar pentes ou tranças militares. Manter os cabelos soltos simboliza liberdade.
+  - Vendaval acolhe exilados e escravos fugitivos das cavernas de Okum.
+  - O vilarejo sofre com ataques de Yetis albinos, que foram empurrados para as florestas baixas após o inverno dizimar os rebanhos de alces.
+  - Nissandra prepara flechas e óleos incendiários usados contra os Yetis.
+
+NPCs:
+  - Alvin, o Cai de Pé — Líder do Clã Stuart
+    Neto da antiga receptáculo de Garuda que guiou os colonos fundadores. Governa com paciência, sabedoria e acolhimento.
+  - Nissandra, a Cospe-Fogo — Esposa de Alvin
+    Artista itinerante de circo nascida no sul. Foi capturada por saqueadores de Gorjal, escapou do sacrifício no Fosso dos Afogados e foi resgatada por Alvin.
+  - Milissandre — Filha de Alvin e Nissandra
+    Filha primogênita, fascinada pelas histórias do sul e desejosa de conhecer as terras além do gelo.
+  - Gaudio — Filho de Alvin e Nissandra
+    Filho caçula e carpinteiro talentoso, estuda o desenho de velas e cascos aerodinâmicos e sonha construir uma nave capaz de velejar pelos ventos do firmamento.
+
+
+============================================================
+FACÇÕES
+============================================================
+
+### Baía dos Náufragos
+Porto e fortaleza pirata construído no centro das ilhas dos Reinos de Ferro. É administrado por uma corte de lordes piratas.
+
+Detalhes:
+  - A Corte da Irmandade é composta por Lordes Piratas.
+  - O título de Lorde Pirata não é hereditário e é transmitido por indicação antes da morte do antecessor.
+  - Galios Storm é um famoso capitão pirata e receptáculo de Leviathan, mas não é um Lorde Pirata.
+  - Galios ataca fortalezas e frotas militares dos Ferranos e proíbe a pilhagem de vilarejos ou camponeses indefesos.
+
+NPCs:
+  - Galios Storm — Capitão pirata e receptáculo de Leviathan
+    Famoso capitão pirata e receptáculo de Leviathan. Não ocupa o cargo de Lorde Pirata e concentra seus ataques contra fortalezas e frotas militares ferranas.
+
+
+### Caravanas de Hum'babi
+Organização de caravanas mercantis nômades que percorre as estradas perigosas de Caldia.
+
+Detalhes:
+  - Realizam escambo e transporte de mercadorias exóticas entre nações rivais.
+
+
+### Clã do Rói-Montanha
+Clã estabelecido nas cavernas da Garganta de Okum, uma passagem marítima crucial entre as águas do Norte e os mares vigiados pelo Ducado. O assentamento nasceu do exílio de Ig, o Tolo, e tornou-se um refúgio fortificado de saqueadores devotos à lendária Rainha das Profundezas.
+
+Detalhes:
+  - Ig, o Tolo, foi exilado após um conflito com o Alto Jarl de Marunath. Durante uma nevasca, afirmou ter visto um tentáculo colossal abrir a montanha e criar as cavernas que salvaram seu povo.
+  - O clã cultua a filha de Ringol e Nataly/Talyn como a verdadeira Rainha do Norte.
+  - O clã controla a passagem de Okum e ataca embarcações do Ducado.
+  - Gorjal mantém prisioneiros e realiza sacrifícios no Fosso dos Afogados como oferendas à Rainha Kraken.
+  - Thorsen tolera estrategicamente o clã porque as frotas de Gorjal atuam contra o Ducado e trazem recursos para o Norte.
+  - Drina e Treva são filhas gêmeas de Gorjal. O filho caçula de Gorjal desapareceu após sua mãe fugir com ele para o sul.
+
+NPCs:
+  - Ig, o Tolo — Fundador do Clã do Rói-Montanha
+    Líder de caça que foi exilado de Marunath. Segundo seu próprio relato, um tentáculo colossal abriu a montanha para salvar sua tribo durante uma nevasca.
+  - Gorjal, o Sanguinário — Líder atual do clã
+    Filho de Ig, guerreiro colossal e impiedoso. Comanda ataques contra o Ducado e mantém o Fosso dos Afogados como local de sacrifícios à Rainha Kraken.
+  - Drina, a Corta-Cabeças — Filha de Gorjal
+    Gêmea de Treva, 20 anos. Fanática pela Rainha Kraken; em seus transes sonha liderar serpentes marinhas e enguias gigantes. Mantém prisioneiros como mascotes descartáveis.
+  - Treva, a Fera Enlutada — Filha de Gorjal
+    Gêmea de Drina, 20 anos. Afastou-se parcialmente do fanatismo do pai após se apaixonar por um pescador. Depois da morte do marido, tornou-se uma guerreira marcada pelo luto, mas protetora de sua tripulação no drakkar Arruaceiro.
+
+
+### Hoste dos Filhos da Chama
+Seita apocalíptica sem liderança centralizada, fortalezas ou cidades, formada por pessoas que acreditam que o mundo deve ser consumido e purificado pelas chamas de Ifrit.
+
+Detalhes:
+  - Marcham queimando, pilhando e matando aqueles que rejeitam seus dogmas.
+  - Mesmo quando são eliminados, novos grupos surgem em outras regiões.
+  - O próprio Ifrit tentou exterminar os Filhos da Chama no passado.
+
+
+### Necrópolis
+Cidade erguida sobre um colossal zigurate em espiral construído há quase um milênio em uma planície infértil próxima ao Ducado de Aetergard. O monumento foi originalmente criado para aprisionar o receptáculo de Ah Puch.
+
+Detalhes:
+  - Jessebel Alexyn é o atual receptáculo de Ah Puch e acredita-se que esteja viva há mais de mil anos.
+  - Jessebel era primogênita de uma extinta linhagem de condes de Aetergard.
+  - Sua família acreditava que ela poderia ser receptáculo de Makára, deusa associada ao repouso e à face serena da morte.
+  - Na juventude, Jessebel torturava e mutilava os filhos dos servos enquanto mantinha uma aparência virtuosa diante da nobreza.
+  - No dia do casamento, invocou mortos-vivos, bloqueou as saídas da catedral de Ultima e matou o próprio noivo.
+  - Os receptáculos de Ultima e Odin conseguiram matá-la, mas ela ressurgiu meses depois.
+  - Incapazes de destruí-la definitivamente, construíram o zigurate e a selaram em seu interior.
+  - A recente horda de mortos-vivos sugere que Jessebel rompeu o confinamento e tomou a cidade subterrânea de Necrópolis.
+
+NPCs:
+  - Jessebel Alexyn — Receptáculo de Ah Puch
+    Antiga condessa de Aetergard e atual receptáculo de Ah Puch. Foi responsável por uma onda de mortos-vivos há mais de um milênio e foi selada em um colossal zigurate. O compêndio indica que seu recente despertar rompeu o confinamento.
+
+
+### Allag
+Antiga civilização que dominava Caldia há cerca de dez mil anos e possuía conhecimentos mágicos e tecnológicos que beiravam o divino.
+
+Detalhes:
+  - A civilização de Allag entrou em colapso por razões ainda envoltas em mistério.
+  - Hoje restam ruínas, inscrições, anotações e artefatos de poder extraordinário.
+  - Os artefatos de Allag são disputados pela nobreza de Aetergard e pelos pesquisadores da República de Arquimedes.
+  - O Povo da Areia é apresentado como descendente direto de sangue puro de Allag.
+
