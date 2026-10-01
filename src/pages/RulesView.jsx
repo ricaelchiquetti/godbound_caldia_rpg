@@ -28,7 +28,7 @@ function RulesContent() {
     { id: 'changing-world', name: 'Mudar o Mundo', Component: ChangingWorldView },
     { id: 'cults', name: 'Cultos de Godbound', Component: CultsView },
     { id: 'factions', name: 'Facções, Nações e Organizações', Component: FactionsView },
-    { id: 'dominion-cults', name: 'Compêndio de Domínios e Cultos', Component: DominionCultsView },
+    { id: 'dominion-cults', name: 'Guia Jogador de Domínios e Cultos', Component: DominionCultsView },
     { id: 'favorites', name: `★ Dádivas Favoritos (${favorites.length})`, Component: (props) => <FavoritesView {...props} setActiveTabId={setActiveTabId} /> },
   ];
 
