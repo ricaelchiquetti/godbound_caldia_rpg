@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import PageLayout from './PageLayout';
 import LoreNav from './LoreNav';
 import LoreHeader from './LoreHeader';

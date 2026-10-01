@@ -1,4 +1,3 @@
-import React from 'react';
 import { cities } from '../data/worldData';
 import LorePage from '../components/LorePage';
 

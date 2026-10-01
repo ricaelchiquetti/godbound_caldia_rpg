@@ -1,4 +1,3 @@
-import React from 'react';
 
 export default function LoreDetails({ title = "Informações Gerais", details }) {
   if (!details) return null;

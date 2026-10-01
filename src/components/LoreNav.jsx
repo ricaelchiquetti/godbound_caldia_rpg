@@ -1,4 +1,3 @@
-import React from 'react';
 
 export default function LoreNav({ data, activeId, onSelectItem }) {
   if (!data || data.length === 0) return null;

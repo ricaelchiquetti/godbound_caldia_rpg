@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Navbar from './components/Navbar';
 import LetterIntro from './pages/LetterIntro';
 import CityView from './pages/CityView';
 import Pantheon from './pages/Pantheon';
 import FactionView from './pages/FactionView';
 import RulesView from './pages/RulesView';
+import FactionSheetsView from './pages/FactionSheetsView';
 
 function App() {
   const [activePage, setActivePage] = useState('intro');
@@ -19,6 +20,7 @@ function App() {
         {activePage === 'factions' && <FactionView />}
         {activePage === 'pantheon' && <Pantheon />}
         {activePage === 'rules' && <RulesView />}
+        {activePage === 'faction-sheets' && <FactionSheetsView />}
       </main>
     </div>
   );

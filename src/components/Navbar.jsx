@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const navItems = [
-  { id: 'intro', label: 'O Compêndio' },
+  { id: 'intro', label: 'Compêndio' },
   { id: 'cities', label: 'Nações e Territórios' },
   { id: 'factions', label: 'Facções e Organizações' },
-  { id: 'pantheon', label: 'O Panteão' },
-  { id: 'rules', label: 'Livro do Jogador' }
+  { id: 'pantheon', label: 'Panteão' },
+  { id: 'rules', label: 'Livro do Jogador' },
+  { id: 'faction-sheets', label: 'Fichas de Facção' }
 ];
 
 export default function Navbar({ activePage, setActivePage }) {

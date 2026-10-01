@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function GuideSidebar({ sections, title = "Navegação do Guia" }) {
   const [isOpen, setIsOpen] = useState(false);

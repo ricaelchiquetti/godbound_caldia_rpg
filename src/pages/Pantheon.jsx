@@ -1,4 +1,3 @@
-import React from 'react';
 import { gods } from '../data/worldData';
 import PageLayout from '../components/PageLayout';
 import GodCard from '../components/GodCard';

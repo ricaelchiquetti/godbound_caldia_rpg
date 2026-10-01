@@ -1,5 +1,4 @@
 // src/components/GuideLayout.jsx
-import React from 'react';
 import GuideSidebar from './GuideSidebar';
 import MarkdownDocView from './MarkdownDocView';
 

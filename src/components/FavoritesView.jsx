@@ -1,4 +1,3 @@
-import React from 'react';
 import WordGiftCard from './WordGiftCard';
 import SectionTitle from './SectionTitle';
 import PageTitle from './PageTitle';

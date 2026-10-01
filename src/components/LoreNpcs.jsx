@@ -1,4 +1,3 @@
-import React from 'react';
 import NpcCard from './NpcCard'; // Certifique-se de ajustar o caminho para o seu NpcCard
 
 export default function LoreNpcs({ 

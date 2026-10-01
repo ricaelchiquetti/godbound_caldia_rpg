@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import PageLayout from '../components/PageLayout';
 import LoreNav from '../components/LoreNav';
 import CharacterCreationGuideView from '../components/CharacterCreationGuideView';

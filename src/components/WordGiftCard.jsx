@@ -1,4 +1,3 @@
-import React from 'react';
 import FavoriteButton from './FavoriteButton';
 import { useFavorites } from '../context/FavoritesContext';
 

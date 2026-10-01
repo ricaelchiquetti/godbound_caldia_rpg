@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import WordCard from './WordCard';
 import WordDetail from './WordDetail';
 import { wordsData } from '../data/wordsData';

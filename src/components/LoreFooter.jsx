@@ -1,4 +1,3 @@
-import React from 'react';
 
 export default function LoreFooter({ entityName, text }) {
   if (!entityName && !text) return null;
